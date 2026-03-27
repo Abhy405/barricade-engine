@@ -1,0 +1,26 @@
+{
+  "manifest_version": 3,
+  "name": "Barricade Engine",
+  "version": "1.0",
+  "description": "See the optimal move in any barricade.gg game",
+  "icons": {
+    "16": "icon.png",
+    "48": "icon.png",
+    "128": "icon.png"
+  },
+  "permissions": ["activeTab"],
+  "host_permissions": [
+    "http://127.0.0.1:5123/*"
+  ],
+  "content_scripts": [
+    {
+      "js": ["scripts/main.js"],
+      "css": ["scripts/overlay.css"],
+      "matches": [
+        "https://barricade.gg/*",
+        "https://www.barricade.gg/*"
+      ],
+      "run_at": "document_idle"
+    }
+  ]
+}
