@@ -12,7 +12,8 @@ const POLL_MS = 800;
 let enabled = true;
 let lastState = null;
 let pollTimer = null;
-let depth = 4;
+let depth = 8;
+let timeLimit = 10.0;
 
 // ============================================================
 // BOARD READER — reads barricade.gg CSS grid DOM
@@ -139,6 +140,21 @@ function getBoard() {
 // ============================================================
 
 async function analyze(state) {
+  // Log board state to server for debugging
+  try {
+    fetch(`${ENGINE_URL}/api/log`, {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({
+        event: 'board_read',
+        pawns: state.pawns,
+        walls: state.walls,
+        wallsLeft: state.wallsLeft,
+        currentPlayer: state.currentPlayer
+      })
+    }).catch(() => {});
+  } catch {}
+
   try {
     const resp = await fetch(`${ENGINE_URL}/api/best-move`, {
       method: 'POST',
@@ -149,7 +165,7 @@ async function analyze(state) {
         wallsLeft: state.wallsLeft,
         currentPlayer: state.currentPlayer,
         depth,
-        timeLimit: 3.0
+        timeLimit
       })
     });
     if (!resp.ok) return null;

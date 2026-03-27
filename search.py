@@ -9,7 +9,6 @@ Stockfish-inspired search with:
 - Killer move heuristic
 - History heuristic for move ordering
 - Late move reductions (LMR) for wall placements
-- Null-move-like forward pruning for positions with large eval advantage
 """
 
 import time
@@ -37,10 +36,6 @@ class TTEntry:
 
 
 class SearchEngine:
-    """
-    Stockfish-style search engine for Quoridor.
-    """
-
     def __init__(self, model: NNUE, tt_size: int = 1 << 20):
         self.model = model
         self.model.eval()
@@ -54,7 +49,7 @@ class SearchEngine:
         self.max_depth = 64
         self.killers: List[List[Optional[Move]]] = [[None, None] for _ in range(self.max_depth)]
 
-        # History heuristic table: indexed by (move_type, row, col, orientation)
+        # History heuristic
         self.history: Dict[tuple, int] = {}
 
         # Search stats
@@ -63,58 +58,105 @@ class SearchEngine:
         self.start_time = 0.0
         self.time_limit = 0.0
 
-        # Handcrafted eval weight (blended with NNUE during early training)
-        self.nnue_weight = 1.0  # 0.0 = pure handcrafted, 1.0 = pure NNUE
+        # Use pure handcrafted until NNUE is properly trained
+        self.nnue_weight = 0.0
 
     def _handcrafted_eval(self, state: QuoridorState) -> float:
         """
-        Simple handcrafted evaluation based on shortest path difference.
-        Returns score from current player's perspective.
+        Strong handcrafted evaluation for Quoridor.
+        The key insight: shortest path difference is ~80% of what matters.
         """
         p = state.current_player
         opp = 1 - p
         my_dist = state.shortest_path(p)
         opp_dist = state.shortest_path(opp)
 
-        # Base: path advantage
-        score = (opp_dist - my_dist) * 100.0
+        # === WINNING / LOSING ===
+        # If I can reach goal and it's my turn, massive bonus
+        if my_dist == 0:
+            return 900.0
+        if opp_dist == 0:
+            return -900.0
 
-        # Wall advantage
-        score += (state.walls_left[p] - state.walls_left[opp]) * 15.0
+        # One move from winning with the move
+        if my_dist == 1:
+            return 500.0
+        if opp_dist == 1 and state.walls_left[p] == 0:
+            return -500.0  # can't block them
 
-        # Tempo bonus (closer to goal = better)
-        score += (8 - my_dist) * 10.0
+        score = 0.0
 
-        # Being on the move is slightly advantageous when distances are close
-        if my_dist <= opp_dist:
-            score += 20.0
+        # === PATH ADVANTAGE (dominant factor) ===
+        path_diff = opp_dist - my_dist
+        # Having the move matters: if paths equal, mover has advantage
+        effective_diff = path_diff
+        # More weight when distances are short (endgame)
+        if my_dist <= 4 or opp_dist <= 4:
+            score += effective_diff * 150.0
+        else:
+            score += effective_diff * 100.0
 
-        return score / 1000.0  # normalize to roughly [-1, 1] range
+        # Tempo: being on the move with shorter/equal path is big
+        if path_diff >= 0:
+            score += 30.0
+        # Even bigger when close to winning
+        if my_dist <= 3 and path_diff >= 0:
+            score += 50.0
+
+        # === WALL ECONOMY ===
+        my_walls = state.walls_left[p]
+        opp_walls = state.walls_left[opp]
+
+        # Walls are valuable for blocking — more valuable when opponent is close
+        if opp_dist <= 4:
+            score += my_walls * 20.0  # my walls can block them
+        else:
+            score += my_walls * 8.0
+
+        if my_dist <= 4:
+            score -= opp_walls * 20.0  # their walls can block me
+        else:
+            score -= opp_walls * 8.0
+
+        # Having walls when opponent doesn't = huge advantage
+        if my_walls > 0 and opp_walls == 0:
+            score += 40.0
+        if opp_walls > 0 and my_walls == 0:
+            score -= 40.0
+
+        # === POSITIONAL ===
+        # Progress toward goal
+        my_row = state.pawns[p][0]
+        opp_row = state.pawns[opp][0]
+        my_goal = state.goals[p]
+        opp_goal = state.goals[opp]
+
+        my_progress = abs(my_row - (8 - my_goal))  # rows advanced
+        opp_progress = abs(opp_row - (8 - opp_goal))
+        score += (my_progress - opp_progress) * 5.0
+
+        # Center column control (columns 3,4,5 are better — more path options)
+        my_col = state.pawns[p][1]
+        opp_col = state.pawns[opp][1]
+        center_bonus_me = max(0, 3 - abs(my_col - 4)) * 3.0
+        center_bonus_opp = max(0, 3 - abs(opp_col - 4)) * 3.0
+        score += center_bonus_me - center_bonus_opp
+
+        # Normalize to roughly [-1, 1] range
+        return score / 500.0
 
     def evaluate(self, state: QuoridorState) -> float:
-        """
-        Evaluate position using blend of NNUE and handcrafted eval.
-        Returns score from current player's perspective.
-        """
         handcrafted = self._handcrafted_eval(state)
-
         if self.nnue_weight <= 0.0:
             return handcrafted
 
-        # NNUE evaluation
         features = state.encode_board()
         self.accumulator.full_refresh(features)
         nnue_score = self.accumulator.evaluate()
-
-        # Blend
         return self.nnue_weight * nnue_score + (1.0 - self.nnue_weight) * handcrafted
 
     def _order_moves(self, moves: List[Move], state: QuoridorState,
                      tt_move: Optional[Move], depth: int) -> List[Move]:
-        """
-        Order moves for better alpha-beta pruning.
-        Priority: TT move > pawn moves toward goal > killer moves > history heuristic > other walls
-        """
         scored = []
         p = state.current_player
         goal = state.goals[p]
@@ -123,31 +165,23 @@ class SearchEngine:
         for m in moves:
             score = 0
 
-            # TT move gets highest priority
             if tt_move and m == tt_move:
                 score = 10000000
             elif m.move_type == Move.PAWN:
-                # Pawn moves: prioritize moves toward goal
                 old_dist = abs(pr - goal)
                 new_dist = abs(m.row - goal)
                 score = 1000000 + (old_dist - new_dist) * 100000
-
-                # Bonus for reaching goal
                 if m.row == goal:
                     score += 5000000
             else:
-                # Wall moves
-                # Killer move bonus
                 if self.killers[depth][0] == m:
                     score = 500000
                 elif self.killers[depth][1] == m:
                     score = 400000
                 else:
-                    # History heuristic
                     key = (m.move_type, m.row, m.col, m.orientation)
                     score = self.history.get(key, 0)
 
-                    # Bonus for walls near opponent
                     opr, opc = state.pawns[1 - p]
                     dist_to_opp = abs(m.row - opr) + abs(m.col - opc)
                     score += max(0, 1000 - dist_to_opp * 100)
@@ -174,25 +208,18 @@ class SearchEngine:
 
     def negamax(self, state: QuoridorState, depth: int, alpha: float, beta: float,
                 ply: int) -> float:
-        """
-        Negamax with alpha-beta pruning.
-        Returns score from the perspective of state.current_player.
-        """
         self.nodes += 1
 
-        # Time check every 4096 nodes
         if self.nodes & 4095 == 0 and self._time_up():
-            return 0.0  # will be ignored
+            return 0.0
 
-        # Terminal check
         if state.is_terminal():
             return -INF if state.winner == (1 - state.current_player) else INF
 
-        # Leaf node: evaluate
         if depth <= 0:
             return self.evaluate(state)
 
-        # Transposition table lookup
+        # TT lookup
         tt_key = state.zobrist % self.tt_size
         tt_entry = self.tt.get(tt_key)
         tt_move = None
@@ -208,7 +235,6 @@ class SearchEngine:
                 elif tt_entry.flag == TT_BETA and tt_entry.score >= beta:
                     return beta
 
-        # Generate and order moves
         moves = state.get_legal_moves()
         if not moves:
             return self.evaluate(state)
@@ -226,7 +252,7 @@ class SearchEngine:
 
             state.make_move(move)
 
-            # Late move reductions for wall placements after searching a few moves
+            # LMR for late wall moves
             reduction = 0
             if (moves_searched >= 4 and depth >= 3
                     and move.move_type == Move.WALL
@@ -235,7 +261,6 @@ class SearchEngine:
 
             score = -self.negamax(state, depth - 1 - reduction, -beta, -alpha, ply + 1)
 
-            # Re-search at full depth if reduced search found something interesting
             if reduction > 0 and score > alpha:
                 score = -self.negamax(state, depth - 1, -beta, -alpha, ply + 1)
 
@@ -251,23 +276,17 @@ class SearchEngine:
                 flag = TT_EXACT
 
                 if score >= beta:
-                    # Beta cutoff
                     flag = TT_BETA
                     self._store_killer(move, ply)
                     self._store_history(move, depth)
                     break
 
-        # Store in transposition table
         self.tt[tt_key] = TTEntry(state.zobrist, depth, best_score, flag, best_move)
-
         return best_score
 
-    def search(self, state: QuoridorState, max_depth: int = 6,
-               time_limit: float = 5.0) -> Tuple[Move, float]:
-        """
-        Iterative deepening search.
-        Returns (best_move, score).
-        """
+    def search(self, state: QuoridorState, max_depth: int = 8,
+               time_limit: float = 10.0) -> Tuple[Move, float]:
+        """Iterative deepening search. Defaults to max depth 8, 10s."""
         self.nodes = 0
         self.tt_hits = 0
         self.start_time = time.time()
@@ -286,18 +305,15 @@ class SearchEngine:
             alpha = -INF
             beta = INF
 
-            # Aspiration windows after depth 3
             if depth >= 4 and best_score != -INF:
                 window = 0.15
                 alpha = best_score - window
                 beta = best_score + window
 
-            score = -INF
             moves = state.get_legal_moves()
             if not moves:
                 break
 
-            # Order using previous best move
             tt_key = state.zobrist % self.tt_size
             tt_entry = self.tt.get(tt_key)
             tt_move = tt_entry.best_move if tt_entry and tt_entry.zobrist == state.zobrist else None
@@ -352,8 +368,7 @@ class SearchEngine:
 
         return best_move, best_score
 
-    def get_move(self, state: QuoridorState, max_depth: int = 6,
-                 time_limit: float = 5.0) -> Move:
-        """Convenience method: search and return just the best move."""
+    def get_move(self, state: QuoridorState, max_depth: int = 8,
+                 time_limit: float = 10.0) -> Move:
         move, score = self.search(state, max_depth, time_limit)
         return move

@@ -1,10 +1,15 @@
 """
 Local API server for the Quoridor engine.
 Chrome extension calls this to get best moves.
+Logs all game states to game_log.jsonl for debugging.
 """
 
 import os
 import sys
+import json
+import time
+from datetime import datetime
+
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
 from flask import Flask, request, jsonify
@@ -16,22 +21,32 @@ from search import SearchEngine
 app = Flask(__name__)
 CORS(app)
 
-# Load engine
-model_path = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "models", "nnue_best.pt")
+BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+LOG_PATH = os.path.join(BASE_DIR, "game_log.jsonl")
+
+# Load engine — pure handcrafted eval until NNUE is properly trained
 model = NNUE()
-if os.path.exists(model_path):
-    model = load_model(model_path)
-    print(f"Loaded NNUE from {model_path}")
-else:
-    print("No trained model found, using handcrafted eval")
+model_path = os.path.join(BASE_DIR, "models", "nnue_best.pt")
+nnue_loaded = False
+# Uncomment below once NNUE is properly trained:
+# if os.path.exists(model_path):
+#     model = load_model(model_path)
+#     nnue_loaded = True
+#     print(f"Loaded NNUE from {model_path}")
 
 engine = SearchEngine(model)
-if not os.path.exists(model_path):
-    engine.nnue_weight = 0.0
+engine.nnue_weight = 0.0  # pure handcrafted — NNUE not ready yet
+print("Engine ready — using handcrafted eval (max depth 8, 10s)")
+
+
+def log_entry(entry: dict):
+    """Append a JSON line to the game log."""
+    entry['timestamp'] = datetime.now().isoformat()
+    with open(LOG_PATH, 'a') as f:
+        f.write(json.dumps(entry) + '\n')
 
 
 def state_from_json(data: dict) -> QuoridorState:
-    """Build a QuoridorState from JSON board representation."""
     state = QuoridorState()
     state.pawns[0] = list(data['pawns'][0])
     state.pawns[1] = list(data['pawns'][1])
@@ -52,36 +67,18 @@ def state_from_json(data: dict) -> QuoridorState:
 
 @app.route('/api/best-move', methods=['POST'])
 def best_move():
-    """
-    Get the best move for a given board state.
-
-    Request JSON:
-    {
-        "pawns": [[r1,c1], [r2,c2]],
-        "walls": [[r, c, "h"|"v"], ...],
-        "wallsLeft": [p1_walls, p2_walls],
-        "currentPlayer": 0|1,
-        "depth": 4,        // optional
-        "timeLimit": 3.0   // optional, seconds
-    }
-
-    Response JSON:
-    {
-        "move": {"type": "pawn"|"wall", "row": r, "col": c, "orientation": "h"|"v"|null},
-        "score": float,
-        "depth": int,
-        "nodes": int
-    }
-    """
     data = request.json
     state = state_from_json(data)
 
-    depth = data.get('depth', 4)
-    time_limit = data.get('timeLimit', 3.0)
+    # Max defaults
+    depth = data.get('depth', 8)
+    time_limit = data.get('timeLimit', 10.0)
 
+    t0 = time.time()
     move, score = engine.search(state, max_depth=depth, time_limit=time_limit)
+    elapsed = time.time() - t0
 
-    return jsonify({
+    result = {
         'move': {
             'type': 'pawn' if move.move_type == 0 else 'wall',
             'row': int(move.row),
@@ -90,13 +87,23 @@ def best_move():
         },
         'score': round(float(score), 4),
         'nodes': engine.nodes,
-        'evaluation': round(float(engine.evaluate(state)), 4)
+        'evaluation': round(float(engine.evaluate(state)), 4),
+        'searchTime': round(elapsed, 2)
+    }
+
+    # Log for debugging
+    log_entry({
+        'type': 'analysis',
+        'input': data,
+        'result': result,
+        'shortestPaths': [state.shortest_path(0), state.shortest_path(1)],
     })
+
+    return jsonify(result)
 
 
 @app.route('/api/legal-moves', methods=['POST'])
 def legal_moves():
-    """Get all legal moves for a position."""
     data = request.json
     state = state_from_json(data)
     moves = state.get_legal_moves()
@@ -119,7 +126,6 @@ def legal_moves():
 
 @app.route('/api/evaluate', methods=['POST'])
 def evaluate():
-    """Evaluate a position without searching."""
     data = request.json
     state = state_from_json(data)
     score = engine.evaluate(state)
@@ -132,20 +138,34 @@ def evaluate():
 
 @app.route('/api/debug-dom', methods=['POST'])
 def debug_dom():
-    """Receive DOM debug info from the extension and save it."""
     data = request.json
-    debug_path = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "dom_debug.json")
-    import json
+    debug_path = os.path.join(BASE_DIR, "dom_debug.json")
     with open(debug_path, 'w') as f:
         json.dump(data, f, indent=2)
     print(f"DOM debug saved to {debug_path}")
-    return jsonify({'status': 'saved', 'path': debug_path})
+    return jsonify({'status': 'saved'})
+
+
+@app.route('/api/log', methods=['POST'])
+def log_from_extension():
+    """Extension can send arbitrary debug logs."""
+    data = request.json
+    log_entry({'type': 'extension', 'data': data})
+    print(f"[EXT LOG] {json.dumps(data)[:200]}")
+    return jsonify({'status': 'logged'})
 
 
 @app.route('/api/health', methods=['GET'])
 def health():
-    return jsonify({'status': 'ok', 'nnue_loaded': os.path.exists(model_path)})
+    return jsonify({
+        'status': 'ok',
+        'nnue_loaded': nnue_loaded,
+        'eval_mode': 'handcrafted' if engine.nnue_weight == 0 else 'nnue_blend',
+        'default_depth': 8,
+        'default_time': 10.0
+    })
 
 
 if __name__ == '__main__':
+    print(f"Game log: {LOG_PATH}")
     app.run(host='127.0.0.1', port=5123, debug=False)
