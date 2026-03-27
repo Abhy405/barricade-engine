@@ -5,3 +5,5 @@ src/
 include/
 *.pt
 .DS_Store
+*.jsonl
+cpp/engine

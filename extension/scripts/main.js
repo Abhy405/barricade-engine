@@ -12,7 +12,7 @@ const POLL_MS = 800;
 let enabled = true;
 let lastState = null;
 let pollTimer = null;
-let depth = 64;
+let depth = 15;
 let timeLimit = 30.0;
 
 // ============================================================
