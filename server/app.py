@@ -36,7 +36,7 @@ nnue_loaded = False
 
 engine = SearchEngine(model)
 engine.nnue_weight = 0.0  # pure handcrafted — NNUE not ready yet
-print("Engine ready — using handcrafted eval (max depth 8, 10s)")
+print("Engine ready — using handcrafted eval (unlimited depth, 30s per move)")
 
 
 def log_entry(entry: dict):
@@ -71,8 +71,8 @@ def best_move():
     state = state_from_json(data)
 
     # Max defaults
-    depth = data.get('depth', 8)
-    time_limit = data.get('timeLimit', 10.0)
+    depth = data.get('depth', 64)
+    time_limit = data.get('timeLimit', 30.0)
 
     t0 = time.time()
     move, score = engine.search(state, max_depth=depth, time_limit=time_limit)
@@ -161,8 +161,8 @@ def health():
         'status': 'ok',
         'nnue_loaded': nnue_loaded,
         'eval_mode': 'handcrafted' if engine.nnue_weight == 0 else 'nnue_blend',
-        'default_depth': 8,
-        'default_time': 10.0
+        'default_depth': 64,
+        'default_time': 30.0
     })
 
 

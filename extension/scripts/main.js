@@ -12,8 +12,8 @@ const POLL_MS = 800;
 let enabled = true;
 let lastState = null;
 let pollTimer = null;
-let depth = 8;
-let timeLimit = 10.0;
+let depth = 64;
+let timeLimit = 30.0;
 
 // ============================================================
 // BOARD READER — reads barricade.gg CSS grid DOM
