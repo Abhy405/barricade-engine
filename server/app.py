@@ -130,6 +130,18 @@ def evaluate():
     })
 
 
+@app.route('/api/debug-dom', methods=['POST'])
+def debug_dom():
+    """Receive DOM debug info from the extension and save it."""
+    data = request.json
+    debug_path = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "dom_debug.json")
+    import json
+    with open(debug_path, 'w') as f:
+        json.dump(data, f, indent=2)
+    print(f"DOM debug saved to {debug_path}")
+    return jsonify({'status': 'saved', 'path': debug_path})
+
+
 @app.route('/api/health', methods=['GET'])
 def health():
     return jsonify({'status': 'ok', 'nnue_loaded': os.path.exists(model_path)})

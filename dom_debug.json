@@ -1,0 +1,3183 @@
+{
+  "allClasses": [
+    "-translate-y-1/2",
+    "2xl:flex",
+    "absolute",
+    "active:cursor-grabbing",
+    "active:outline-none",
+    "adsbygoogle",
+    "animate-pulse",
+    "aspect-square",
+    "backdrop-blur-sm",
+    "bg-[#161616]",
+    "bg-blue-500",
+    "bg-emerald-50",
+    "bg-gradient-to-b",
+    "bg-gradient-to-r",
+    "bg-gray-400/60",
+    "bg-gray-50",
+    "bg-green-500/20",
+    "bg-red-500",
+    "bg-red-600",
+    "bg-slate-50/95",
+    "bg-transparent",
+    "bg-white/90",
+    "bg-zinc-700/50",
+    "bg-zinc-800",
+    "bg-zinc-900/50",
+    "border",
+    "border-gray-200",
+    "border-l-4",
+    "border-l-green-500",
+    "border-l-transparent",
+    "border-t",
+    "border-zinc-600",
+    "bottom-full",
+    "break-words",
+    "cursor-grab",
+    "cursor-pointer",
+    "duration-150",
+    "duration-200",
+    "duration-300",
+    "ease-in-out",
+    "flex",
+    "flex-1",
+    "flex-col",
+    "flex-shrink-0",
+    "focus:outline-none",
+    "focus:ring-0",
+    "font-bold",
+    "font-medium",
+    "font-mono",
+    "font-sans",
+    "font-semibold",
+    "from-red-500",
+    "gap-1",
+    "gap-2",
+    "gap-3",
+    "group",
+    "group-hover:bg-gray-300",
+    "group-hover:opacity-100",
+    "h-1",
+    "h-1.5",
+    "h-16",
+    "h-2",
+    "h-2.5",
+    "h-32",
+    "h-8",
+    "h-full",
+    "hidden",
+    "hover:bg-emerald-100",
+    "hover:bg-gray-100",
+    "hover:bg-red-700",
+    "hover:bg-zinc-700/30",
+    "hover:bg-zinc-700/50",
+    "hover:bg-zinc-800/60",
+    "hover:scale-105",
+    "hover:shadow-md",
+    "hover:text-amber-400",
+    "hover:underline",
+    "info-label",
+    "info-row",
+    "info-value",
+    "italic",
+    "items-center",
+    "justify-between",
+    "justify-center",
+    "left-0",
+    "lg:flex-row",
+    "lg:gap-2",
+    "lg:ml-2",
+    "lg:order-1",
+    "lg:shadow-2xl",
+    "lg:w-48",
+    "m-auto",
+    "mb-1",
+    "mb-2",
+    "min-h-screen",
+    "min-w-0",
+    "ml-0.5",
+    "mr-4",
+    "mt-1",
+    "mt-2",
+    "mx-auto",
+    "opacity-0",
+    "order-1",
+    "order-2",
+    "overflow-hidden",
+    "overflow-y-auto",
+    "p-1",
+    "p-2",
+    "p-3",
+    "pointer-events-none",
+    "px-0",
+    "px-1",
+    "px-2",
+    "py-0.5",
+    "py-1",
+    "py-2",
+    "py-3",
+    "relative",
+    "right-0",
+    "right-full",
+    "ring-2",
+    "ring-emerald-400",
+    "rounded",
+    "rounded-3xl",
+    "rounded-full",
+    "rounded-lg",
+    "rounded-md",
+    "rounded-sm",
+    "rounded-xl",
+    "select-none",
+    "shadow-lg",
+    "shadow-md",
+    "shadow-xl",
+    "sm:h-3",
+    "sm:p-4",
+    "sm:px-3",
+    "sm:text-xs",
+    "sm:w-3",
+    "space-y-0.5",
+    "sr-only",
+    "text-[10px]",
+    "text-[11px]",
+    "text-[9px]",
+    "text-gray-500",
+    "text-sm",
+    "text-white",
+    "text-xl",
+    "text-xs",
+    "text-zinc-300",
+    "text-zinc-400",
+    "text-zinc-500",
+    "to-red-600",
+    "top-1/2",
+    "tracking-tight",
+    "transition-[background-color,box-shadow,opacity]",
+    "transition-all",
+    "transition-colors",
+    "translate-y-2",
+    "w-1",
+    "w-1.5",
+    "w-16",
+    "w-2",
+    "w-2.5",
+    "w-8",
+    "w-full",
+    "xl:w-72"
+  ],
+  "canvases": [],
+  "svgCount": 4,
+  "bodyTree": [
+    {
+      "tag": "DIV",
+      "classes": "",
+      "childCount": 0,
+      "rect": {
+        "w": 0,
+        "h": 0
+      }
+    },
+    {
+      "tag": "SCRIPT",
+      "id": "_R_",
+      "classes": "",
+      "childCount": 0,
+      "rect": {
+        "w": 0,
+        "h": 0
+      }
+    },
+    {
+      "tag": "SCRIPT",
+      "classes": "",
+      "childCount": 0,
+      "rect": {
+        "w": 0,
+        "h": 0
+      }
+    },
+    {
+      "tag": "SCRIPT",
+      "classes": "",
+      "childCount": 0,
+      "rect": {
+        "w": 0,
+        "h": 0
+      }
+    },
+    {
+      "tag": "SCRIPT",
+      "classes": "",
+      "childCount": 0,
+      "rect": {
+        "w": 0,
+        "h": 0
+      }
+    },
+    {
+      "tag": "SCRIPT",
+      "classes": "",
+      "childCount": 0,
+      "rect": {
+        "w": 0,
+        "h": 0
+      }
+    },
+    {
+      "tag": "SCRIPT",
+      "classes": "",
+      "childCount": 0,
+      "rect": {
+        "w": 0,
+        "h": 0
+      }
+    },
+    {
+      "tag": "SCRIPT",
+      "classes": "",
+      "childCount": 0,
+      "rect": {
+        "w": 0,
+        "h": 0
+      }
+    },
+    {
+      "tag": "SCRIPT",
+      "id": "_next-ga-init",
+      "classes": "",
+      "childCount": 0,
+      "rect": {
+        "w": 0,
+        "h": 0
+      }
+    },
+    {
+      "tag": "SCRIPT",
+      "id": "_next-ga",
+      "classes": "",
+      "childCount": 0,
+      "rect": {
+        "w": 0,
+        "h": 0
+      }
+    },
+    {
+      "tag": "SCRIPT",
+      "id": "adsense-loader",
+      "classes": "",
+      "childCount": 0,
+      "rect": {
+        "w": 0,
+        "h": 0
+      }
+    },
+    {
+      "tag": "NEXT-ROUTE-ANNOUNCER",
+      "classes": "",
+      "childCount": 0,
+      "rect": {
+        "w": 0,
+        "h": 0
+      }
+    },
+    {
+      "tag": "DIV",
+      "classes": "min-h-screen bg-[#161616]",
+      "childCount": 3,
+      "rect": {
+        "w": 1337,
+        "h": 827
+      },
+      "children": [
+        {
+          "tag": "DIV",
+          "classes": "min-h-screen flex items-center justify-center px-0 py-3 sm:p-4 font-sans overflow-y-auto bg-[#161616]",
+          "childCount": 1,
+          "rect": {
+            "w": 1337,
+            "h": 827
+          },
+          "children": [
+            {
+              "tag": "DIV",
+              "classes": "flex flex-col lg:flex-row items-center justify-center w-full",
+              "childCount": 1,
+              "rect": {
+                "w": 1305,
+                "h": 734
+              },
+              "children": [
+                {
+                  "tag": "DIV",
+                  "classes": "flex flex-col lg:flex-row lg:gap-2 mx-auto items-center",
+                  "childCount": 2,
+                  "rect": {
+                    "w": 982,
+                    "h": 734
+                  },
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "tag": "DIV",
+          "id": "DndDescribedBy-0",
+          "classes": "",
+          "childCount": 0,
+          "rect": {
+            "w": 0,
+            "h": 0
+          }
+        },
+        {
+          "tag": "DIV",
+          "id": "DndLiveRegion-0",
+          "classes": "",
+          "childCount": 0,
+          "rect": {
+            "w": 1,
+            "h": 1
+          }
+        }
+      ]
+    }
+  ],
+  "interestingElements": {
+    "svg": [
+      {
+        "tag": "svg",
+        "id": "",
+        "classes": "",
+        "rect": {
+          "x": 535,
+          "y": 50,
+          "w": 16,
+          "h": 16
+        },
+        "attrs": [
+          "class=w-3 h-3 sm:w-4 sm:h-4 text-white flex-shrink-0",
+          "viewBox=0 0 24 24",
+          "fill=currentColor"
+        ],
+        "childCount": 1,
+        "text": ""
+      },
+      {
+        "tag": "svg",
+        "id": "",
+        "classes": "",
+        "rect": {
+          "x": 535,
+          "y": 761,
+          "w": 16,
+          "h": 16
+        },
+        "attrs": [
+          "class=w-3 h-3 sm:w-4 sm:h-4 text-white flex-shrink-0",
+          "viewBox=0 0 24 24",
+          "fill=currentColor"
+        ],
+        "childCount": 1,
+        "text": ""
+      },
+      {
+        "tag": "svg",
+        "id": "",
+        "classes": "",
+        "rect": {
+          "x": 1126,
+          "y": 366,
+          "w": 14,
+          "h": 14
+        },
+        "attrs": [
+          "class=w-3.5 h-3.5",
+          "fill=none",
+          "stroke=currentColor",
+          "viewBox=0 0 24 24"
+        ],
+        "childCount": 1,
+        "text": ""
+      },
+      {
+        "tag": "svg",
+        "id": "",
+        "classes": "",
+        "rect": {
+          "x": 1130,
+          "y": 542,
+          "w": 14,
+          "h": 14
+        },
+        "attrs": [
+          "class=w-3.5 h-3.5 text-zinc-400 transition-transform dur",
+          "fill=none",
+          "stroke=currentColor",
+          "viewBox=0 0 24 24"
+        ],
+        "childCount": 1,
+        "text": ""
+      }
+    ],
+    "[class*=\"square\"]": [
+      {
+        "tag": "DIV",
+        "id": "",
+        "classes": "bg-slate-50/95 rounded-3xl shadow-xl lg:shadow-2xl relative aspect-square p-1 sm:p-4",
+        "rect": {
+          "x": 177,
+          "y": 74,
+          "w": 678,
+          "h": 678
+        },
+        "attrs": [
+          "class=bg-slate-50/95 rounded-3xl shadow-xl lg:shadow-2xl",
+          "style=width: clamp(340px, min(-15rem + 100vw, 82vh), 95v"
+        ],
+        "childCount": 291,
+        "text": "987654321abcdefghi"
+      },
+      {
+        "tag": "DIV",
+        "id": "",
+        "classes": "aspect-square rounded-full bg-blue-500",
+        "rect": {
+          "x": 501,
+          "y": 111,
+          "w": 30,
+          "h": 30
+        },
+        "attrs": [
+          "class=aspect-square rounded-full bg-blue-500",
+          "style=width: 55%; height: 55%;"
+        ],
+        "childCount": 0,
+        "text": ""
+      },
+      {
+        "tag": "DIV",
+        "id": "",
+        "classes": "aspect-square rounded-full bg-red-500",
+        "rect": {
+          "x": 501,
+          "y": 685,
+          "w": 30,
+          "h": 30
+        },
+        "attrs": [
+          "class=aspect-square rounded-full bg-red-500",
+          "style=width: 55%; height: 55%;"
+        ],
+        "childCount": 0,
+        "text": ""
+      }
+    ]
+  },
+  "hasNext": false,
+  "hasRoot": false,
+  "gameGlobals": [
+    {
+      "key": "VisibilityStateEntry",
+      "type": "function",
+      "preview": "function VisibilityStateEntry() { [native code] }"
+    },
+    {
+      "key": "VirtualKeyboardGeometryChangeEvent",
+      "type": "function",
+      "preview": "function VirtualKeyboardGeometryChangeEvent() { [native code] }"
+    },
+    {
+      "key": "ValidityState",
+      "type": "function",
+      "preview": "function ValidityState() { [native code] }"
+    },
+    {
+      "key": "PopStateEvent",
+      "type": "function",
+      "preview": "function PopStateEvent() { [native code] }"
+    },
+    {
+      "key": "KeyboardEvent",
+      "type": "function",
+      "preview": "function KeyboardEvent() { [native code] }"
+    },
+    {
+      "key": "GamepadHapticActuator",
+      "type": "function",
+      "preview": "function GamepadHapticActuator() { [native code] }"
+    },
+    {
+      "key": "GamepadEvent",
+      "type": "function",
+      "preview": "function GamepadEvent() { [native code] }"
+    },
+    {
+      "key": "GamepadButton",
+      "type": "function",
+      "preview": "function GamepadButton() { [native code] }"
+    },
+    {
+      "key": "Gamepad",
+      "type": "function",
+      "preview": "function Gamepad() { [native code] }"
+    },
+    {
+      "key": "CustomStateSet",
+      "type": "function",
+      "preview": "function CustomStateSet() { [native code] }"
+    },
+    {
+      "key": "ContentVisibilityAutoStateChangeEvent",
+      "type": "function",
+      "preview": "function ContentVisibilityAutoStateChangeEvent() { [native code] }"
+    },
+    {
+      "key": "ClipboardEvent",
+      "type": "function",
+      "preview": "function ClipboardEvent() { [native code] }"
+    },
+    {
+      "key": "CSSLayerStatementRule",
+      "type": "function",
+      "preview": "function CSSLayerStatementRule() { [native code] }"
+    },
+    {
+      "key": "oncontentvisibilityautostatechange",
+      "type": "object",
+      "preview": "null"
+    },
+    {
+      "key": "onpopstate",
+      "type": "object",
+      "preview": "null"
+    },
+    {
+      "key": "Clipboard",
+      "type": "function",
+      "preview": "function Clipboard() { [native code] }"
+    },
+    {
+      "key": "ClipboardItem",
+      "type": "function",
+      "preview": "function ClipboardItem() { [native code] }"
+    },
+    {
+      "key": "Keyboard",
+      "type": "function",
+      "preview": "function Keyboard() { [native code] }"
+    },
+    {
+      "key": "KeyboardLayoutMap",
+      "type": "function",
+      "preview": "function KeyboardLayoutMap() { [native code] }"
+    },
+    {
+      "key": "VirtualKeyboard",
+      "type": "function",
+      "preview": "function VirtualKeyboard() { [native code] }"
+    },
+    {
+      "key": "XRDOMOverlayState",
+      "type": "function",
+      "preview": "function XRDOMOverlayState() { [native code] }"
+    },
+    {
+      "key": "ClipboardChangeEvent",
+      "type": "function",
+      "preview": "function ClipboardChangeEvent() { [native code] }"
+    },
+    {
+      "key": "XRRenderState",
+      "type": "function",
+      "preview": "function XRRenderState() { [native code] }"
+    },
+    {
+      "key": "ongamepadconnected",
+      "type": "object",
+      "preview": "null"
+    },
+    {
+      "key": "ongamepaddisconnected",
+      "type": "object",
+      "preview": "null"
+    },
+    {
+      "key": "lastBoardState",
+      "type": "object",
+      "preview": "null"
+    },
+    {
+      "key": "findBoard",
+      "type": "function",
+      "preview": "function findBoard() {\n  const selectors = [\n    // Common game board selectors to try\n    'canvas',"
+    },
+    {
+      "key": "readBoardFromDOM",
+      "type": "function",
+      "preview": "function readBoardFromDOM() {\n  // Strategy 1: Look for pawn elements by class/attribute\n  let state"
+    }
+  ],
+  "boardDeep": {
+    "classes": "bg-slate-50/95 rounded-3xl shadow-xl lg:shadow-2xl relative aspect-square p-1 sm:p-4",
+    "childCount": 291,
+    "style": "width: clamp(340px, min(-15rem + 100vw, 82vh), 95vw); display: grid; transform: none; grid-template-columns: 0.5fr 4fr 1fr 4fr 1fr 4fr 1fr 4fr 1fr 4fr 1fr 4fr 1fr 4fr 1fr 4fr 1fr 4fr 0.5fr; grid-template-rows: 0.5fr 4fr 1fr 4fr 1fr 4fr 1fr 4fr 1fr 4fr 1fr 4fr 1fr 4fr 1fr 4fr 1fr 4fr 0.5fr; gap: 0px; touch-action: manipulation; user-select: none;",
+    "rect": {
+      "x": 177,
+      "y": 74,
+      "w": 678,
+      "h": 678
+    },
+    "childrenByClass": {
+      "rounded-sm border flex items-center justify-center border-gray-200 \n            ": 81,
+      "group focus:outline-none focus:ring-0 active:outline-none": 128,
+      "bg-gray-400/60 rounded-full w-1 h-1 m-auto": 64,
+      "font-mono text-[10px] sm:text-xs text-gray-500 select-none": 18
+    },
+    "childrenSample": [
+      {
+        "index": 0,
+        "tag": "DIV",
+        "classes": "rounded-sm border flex items-center justify-center border-gray-200 \n                        bg-gray-50\n                        \n                        \n                        cursor-pointer\n                        hover:bg-gray-100 hover:scale-105 hover:shadow-md transition-[background-color,box-s",
+        "style": "grid-area: 2 / 2; transform: none;",
+        "rect": {
+          "x": 201,
+          "y": 98,
+          "w": 57,
+          "h": 57
+        },
+        "childCount": 0,
+        "text": "",
+        "dataAttrs": [],
+        "ariaAttrs": []
+      },
+      {
+        "index": 1,
+        "tag": "DIV",
+        "classes": "rounded-sm border flex items-center justify-center border-gray-200 \n                        bg-gray-50\n                        \n                        \n                        cursor-pointer\n                        hover:bg-gray-100 hover:scale-105 hover:shadow-md transition-[background-color,box-s",
+        "style": "grid-area: 2 / 4; transform: none;",
+        "rect": {
+          "x": 272,
+          "y": 98,
+          "w": 57,
+          "h": 57
+        },
+        "childCount": 0,
+        "text": "",
+        "dataAttrs": [],
+        "ariaAttrs": []
+      },
+      {
+        "index": 2,
+        "tag": "DIV",
+        "classes": "rounded-sm border flex items-center justify-center border-gray-200 \n                        bg-gray-50\n                        \n                        \n                        cursor-pointer\n                        hover:bg-gray-100 hover:scale-105 hover:shadow-md transition-[background-color,box-s",
+        "style": "grid-area: 2 / 6; transform: none;",
+        "rect": {
+          "x": 344,
+          "y": 98,
+          "w": 57,
+          "h": 57
+        },
+        "childCount": 0,
+        "text": "",
+        "dataAttrs": [],
+        "ariaAttrs": []
+      },
+      {
+        "index": 3,
+        "tag": "DIV",
+        "classes": "rounded-sm border flex items-center justify-center border-gray-200 \n                        bg-gray-50\n                        \n                        \n                        cursor-pointer\n                        hover:bg-gray-100 hover:scale-105 hover:shadow-md transition-[background-color,box-s",
+        "style": "grid-area: 2 / 8; transform: none;",
+        "rect": {
+          "x": 416,
+          "y": 98,
+          "w": 57,
+          "h": 57
+        },
+        "childCount": 0,
+        "text": "",
+        "dataAttrs": [],
+        "ariaAttrs": []
+      },
+      {
+        "index": 4,
+        "tag": "DIV",
+        "classes": "rounded-sm border flex items-center justify-center border-gray-200 \n                        \n                        \n                        bg-gray-50\n                        cursor-pointer\n                        hover:bg-gray-100 hover:scale-105 hover:shadow-md transition-[background-color,box-s",
+        "style": "grid-area: 2 / 10; transform: none;",
+        "rect": {
+          "x": 488,
+          "y": 98,
+          "w": 57,
+          "h": 57
+        },
+        "childCount": 1,
+        "text": "",
+        "dataAttrs": [],
+        "ariaAttrs": []
+      },
+      {
+        "index": 5,
+        "tag": "DIV",
+        "classes": "rounded-sm border flex items-center justify-center border-gray-200 \n                        bg-gray-50\n                        \n                        \n                        cursor-pointer\n                        hover:bg-gray-100 hover:scale-105 hover:shadow-md transition-[background-color,box-s",
+        "style": "grid-area: 2 / 12; transform: none;",
+        "rect": {
+          "x": 560,
+          "y": 98,
+          "w": 57,
+          "h": 57
+        },
+        "childCount": 0,
+        "text": "",
+        "dataAttrs": [],
+        "ariaAttrs": []
+      },
+      {
+        "index": 6,
+        "tag": "DIV",
+        "classes": "rounded-sm border flex items-center justify-center border-gray-200 \n                        bg-gray-50\n                        \n                        \n                        cursor-pointer\n                        hover:bg-gray-100 hover:scale-105 hover:shadow-md transition-[background-color,box-s",
+        "style": "grid-area: 2 / 14; transform: none;",
+        "rect": {
+          "x": 631,
+          "y": 98,
+          "w": 57,
+          "h": 57
+        },
+        "childCount": 0,
+        "text": "",
+        "dataAttrs": [],
+        "ariaAttrs": []
+      },
+      {
+        "index": 7,
+        "tag": "DIV",
+        "classes": "rounded-sm border flex items-center justify-center border-gray-200 \n                        bg-gray-50\n                        \n                        \n                        cursor-pointer\n                        hover:bg-gray-100 hover:scale-105 hover:shadow-md transition-[background-color,box-s",
+        "style": "grid-area: 2 / 16; transform: none;",
+        "rect": {
+          "x": 703,
+          "y": 98,
+          "w": 57,
+          "h": 57
+        },
+        "childCount": 0,
+        "text": "",
+        "dataAttrs": [],
+        "ariaAttrs": []
+      },
+      {
+        "index": 8,
+        "tag": "DIV",
+        "classes": "rounded-sm border flex items-center justify-center border-gray-200 \n                        bg-gray-50\n                        \n                        \n                        cursor-pointer\n                        hover:bg-gray-100 hover:scale-105 hover:shadow-md transition-[background-color,box-s",
+        "style": "grid-area: 2 / 18; transform: none;",
+        "rect": {
+          "x": 775,
+          "y": 98,
+          "w": 57,
+          "h": 57
+        },
+        "childCount": 0,
+        "text": "",
+        "dataAttrs": [],
+        "ariaAttrs": []
+      },
+      {
+        "index": 9,
+        "tag": "DIV",
+        "classes": "rounded-sm border flex items-center justify-center border-gray-200 \n                        bg-gray-50\n                        \n                        \n                        cursor-pointer\n                        hover:bg-gray-100 hover:scale-105 hover:shadow-md transition-[background-color,box-s",
+        "style": "grid-area: 4 / 2; transform: none;",
+        "rect": {
+          "x": 201,
+          "y": 169,
+          "w": 57,
+          "h": 57
+        },
+        "childCount": 0,
+        "text": "",
+        "dataAttrs": [],
+        "ariaAttrs": []
+      },
+      {
+        "index": 10,
+        "tag": "DIV",
+        "classes": "rounded-sm border flex items-center justify-center border-gray-200 \n                        bg-gray-50\n                        \n                        \n                        cursor-pointer\n                        hover:bg-gray-100 hover:scale-105 hover:shadow-md transition-[background-color,box-s",
+        "style": "grid-area: 4 / 4; transform: none;",
+        "rect": {
+          "x": 272,
+          "y": 169,
+          "w": 57,
+          "h": 57
+        },
+        "childCount": 0,
+        "text": "",
+        "dataAttrs": [],
+        "ariaAttrs": []
+      },
+      {
+        "index": 11,
+        "tag": "DIV",
+        "classes": "rounded-sm border flex items-center justify-center border-gray-200 \n                        bg-gray-50\n                        \n                        \n                        cursor-pointer\n                        hover:bg-gray-100 hover:scale-105 hover:shadow-md transition-[background-color,box-s",
+        "style": "grid-area: 4 / 6; transform: none;",
+        "rect": {
+          "x": 344,
+          "y": 169,
+          "w": 57,
+          "h": 57
+        },
+        "childCount": 0,
+        "text": "",
+        "dataAttrs": [],
+        "ariaAttrs": []
+      },
+      {
+        "index": 12,
+        "tag": "DIV",
+        "classes": "rounded-sm border flex items-center justify-center border-gray-200 \n                        bg-gray-50\n                        \n                        \n                        cursor-pointer\n                        hover:bg-gray-100 hover:scale-105 hover:shadow-md transition-[background-color,box-s",
+        "style": "grid-area: 4 / 8; transform: none;",
+        "rect": {
+          "x": 416,
+          "y": 169,
+          "w": 57,
+          "h": 57
+        },
+        "childCount": 0,
+        "text": "",
+        "dataAttrs": [],
+        "ariaAttrs": []
+      },
+      {
+        "index": 13,
+        "tag": "DIV",
+        "classes": "rounded-sm border flex items-center justify-center border-gray-200 \n                        bg-gray-50\n                        \n                        \n                        cursor-pointer\n                        hover:bg-gray-100 hover:scale-105 hover:shadow-md transition-[background-color,box-s",
+        "style": "grid-area: 4 / 10; transform: none;",
+        "rect": {
+          "x": 488,
+          "y": 169,
+          "w": 57,
+          "h": 57
+        },
+        "childCount": 0,
+        "text": "",
+        "dataAttrs": [],
+        "ariaAttrs": []
+      },
+      {
+        "index": 14,
+        "tag": "DIV",
+        "classes": "rounded-sm border flex items-center justify-center border-gray-200 \n                        bg-gray-50\n                        \n                        \n                        cursor-pointer\n                        hover:bg-gray-100 hover:scale-105 hover:shadow-md transition-[background-color,box-s",
+        "style": "grid-area: 4 / 12; transform: none;",
+        "rect": {
+          "x": 560,
+          "y": 169,
+          "w": 57,
+          "h": 57
+        },
+        "childCount": 0,
+        "text": "",
+        "dataAttrs": [],
+        "ariaAttrs": []
+      },
+      {
+        "index": 15,
+        "tag": "DIV",
+        "classes": "rounded-sm border flex items-center justify-center border-gray-200 \n                        bg-gray-50\n                        \n                        \n                        cursor-pointer\n                        hover:bg-gray-100 hover:scale-105 hover:shadow-md transition-[background-color,box-s",
+        "style": "grid-area: 4 / 14; transform: none;",
+        "rect": {
+          "x": 631,
+          "y": 169,
+          "w": 57,
+          "h": 57
+        },
+        "childCount": 0,
+        "text": "",
+        "dataAttrs": [],
+        "ariaAttrs": []
+      },
+      {
+        "index": 16,
+        "tag": "DIV",
+        "classes": "rounded-sm border flex items-center justify-center border-gray-200 \n                        bg-gray-50\n                        \n                        \n                        cursor-pointer\n                        hover:bg-gray-100 hover:scale-105 hover:shadow-md transition-[background-color,box-s",
+        "style": "grid-area: 4 / 16; transform: none;",
+        "rect": {
+          "x": 703,
+          "y": 169,
+          "w": 57,
+          "h": 57
+        },
+        "childCount": 0,
+        "text": "",
+        "dataAttrs": [],
+        "ariaAttrs": []
+      },
+      {
+        "index": 17,
+        "tag": "DIV",
+        "classes": "rounded-sm border flex items-center justify-center border-gray-200 \n                        bg-gray-50\n                        \n                        \n                        cursor-pointer\n                        hover:bg-gray-100 hover:scale-105 hover:shadow-md transition-[background-color,box-s",
+        "style": "grid-area: 4 / 18; transform: none;",
+        "rect": {
+          "x": 775,
+          "y": 169,
+          "w": 57,
+          "h": 57
+        },
+        "childCount": 0,
+        "text": "",
+        "dataAttrs": [],
+        "ariaAttrs": []
+      },
+      {
+        "index": 18,
+        "tag": "DIV",
+        "classes": "rounded-sm border flex items-center justify-center border-gray-200 \n                        bg-gray-50\n                        \n                        \n                        cursor-pointer\n                        hover:bg-gray-100 hover:scale-105 hover:shadow-md transition-[background-color,box-s",
+        "style": "grid-area: 6 / 2; transform: none;",
+        "rect": {
+          "x": 201,
+          "y": 241,
+          "w": 57,
+          "h": 57
+        },
+        "childCount": 0,
+        "text": "",
+        "dataAttrs": [],
+        "ariaAttrs": []
+      },
+      {
+        "index": 19,
+        "tag": "DIV",
+        "classes": "rounded-sm border flex items-center justify-center border-gray-200 \n                        bg-gray-50\n                        \n                        \n                        cursor-pointer\n                        hover:bg-gray-100 hover:scale-105 hover:shadow-md transition-[background-color,box-s",
+        "style": "grid-area: 6 / 4; transform: none;",
+        "rect": {
+          "x": 272,
+          "y": 241,
+          "w": 57,
+          "h": 57
+        },
+        "childCount": 0,
+        "text": "",
+        "dataAttrs": [],
+        "ariaAttrs": []
+      },
+      {
+        "index": 20,
+        "tag": "DIV",
+        "classes": "rounded-sm border flex items-center justify-center border-gray-200 \n                        bg-gray-50\n                        \n                        \n                        cursor-pointer\n                        hover:bg-gray-100 hover:scale-105 hover:shadow-md transition-[background-color,box-s",
+        "style": "grid-area: 6 / 6; transform: none;",
+        "rect": {
+          "x": 344,
+          "y": 241,
+          "w": 57,
+          "h": 57
+        },
+        "childCount": 0,
+        "text": "",
+        "dataAttrs": [],
+        "ariaAttrs": []
+      },
+      {
+        "index": 21,
+        "tag": "DIV",
+        "classes": "rounded-sm border flex items-center justify-center border-gray-200 \n                        bg-gray-50\n                        \n                        \n                        cursor-pointer\n                        hover:bg-gray-100 hover:scale-105 hover:shadow-md transition-[background-color,box-s",
+        "style": "grid-area: 6 / 8; transform: none;",
+        "rect": {
+          "x": 416,
+          "y": 241,
+          "w": 57,
+          "h": 57
+        },
+        "childCount": 0,
+        "text": "",
+        "dataAttrs": [],
+        "ariaAttrs": []
+      },
+      {
+        "index": 22,
+        "tag": "DIV",
+        "classes": "rounded-sm border flex items-center justify-center border-gray-200 \n                        bg-gray-50\n                        \n                        \n                        cursor-pointer\n                        hover:bg-gray-100 hover:scale-105 hover:shadow-md transition-[background-color,box-s",
+        "style": "grid-area: 6 / 10; transform: none;",
+        "rect": {
+          "x": 488,
+          "y": 241,
+          "w": 57,
+          "h": 57
+        },
+        "childCount": 0,
+        "text": "",
+        "dataAttrs": [],
+        "ariaAttrs": []
+      },
+      {
+        "index": 23,
+        "tag": "DIV",
+        "classes": "rounded-sm border flex items-center justify-center border-gray-200 \n                        bg-gray-50\n                        \n                        \n                        cursor-pointer\n                        hover:bg-gray-100 hover:scale-105 hover:shadow-md transition-[background-color,box-s",
+        "style": "grid-area: 6 / 12; transform: none;",
+        "rect": {
+          "x": 560,
+          "y": 241,
+          "w": 57,
+          "h": 57
+        },
+        "childCount": 0,
+        "text": "",
+        "dataAttrs": [],
+        "ariaAttrs": []
+      },
+      {
+        "index": 24,
+        "tag": "DIV",
+        "classes": "rounded-sm border flex items-center justify-center border-gray-200 \n                        bg-gray-50\n                        \n                        \n                        cursor-pointer\n                        hover:bg-gray-100 hover:scale-105 hover:shadow-md transition-[background-color,box-s",
+        "style": "grid-area: 6 / 14; transform: none;",
+        "rect": {
+          "x": 631,
+          "y": 241,
+          "w": 57,
+          "h": 57
+        },
+        "childCount": 0,
+        "text": "",
+        "dataAttrs": [],
+        "ariaAttrs": []
+      },
+      {
+        "index": 25,
+        "tag": "DIV",
+        "classes": "rounded-sm border flex items-center justify-center border-gray-200 \n                        bg-gray-50\n                        \n                        \n                        cursor-pointer\n                        hover:bg-gray-100 hover:scale-105 hover:shadow-md transition-[background-color,box-s",
+        "style": "grid-area: 6 / 16; transform: none;",
+        "rect": {
+          "x": 703,
+          "y": 241,
+          "w": 57,
+          "h": 57
+        },
+        "childCount": 0,
+        "text": "",
+        "dataAttrs": [],
+        "ariaAttrs": []
+      },
+      {
+        "index": 26,
+        "tag": "DIV",
+        "classes": "rounded-sm border flex items-center justify-center border-gray-200 \n                        bg-gray-50\n                        \n                        \n                        cursor-pointer\n                        hover:bg-gray-100 hover:scale-105 hover:shadow-md transition-[background-color,box-s",
+        "style": "grid-area: 6 / 18; transform: none;",
+        "rect": {
+          "x": 775,
+          "y": 241,
+          "w": 57,
+          "h": 57
+        },
+        "childCount": 0,
+        "text": "",
+        "dataAttrs": [],
+        "ariaAttrs": []
+      },
+      {
+        "index": 27,
+        "tag": "DIV",
+        "classes": "rounded-sm border flex items-center justify-center border-gray-200 \n                        bg-gray-50\n                        \n                        \n                        cursor-pointer\n                        hover:bg-gray-100 hover:scale-105 hover:shadow-md transition-[background-color,box-s",
+        "style": "grid-area: 8 / 2; transform: none;",
+        "rect": {
+          "x": 201,
+          "y": 313,
+          "w": 57,
+          "h": 57
+        },
+        "childCount": 0,
+        "text": "",
+        "dataAttrs": [],
+        "ariaAttrs": []
+      },
+      {
+        "index": 28,
+        "tag": "DIV",
+        "classes": "rounded-sm border flex items-center justify-center border-gray-200 \n                        bg-gray-50\n                        \n                        \n                        cursor-pointer\n                        hover:bg-gray-100 hover:scale-105 hover:shadow-md transition-[background-color,box-s",
+        "style": "grid-area: 8 / 4; transform: none;",
+        "rect": {
+          "x": 272,
+          "y": 313,
+          "w": 57,
+          "h": 57
+        },
+        "childCount": 0,
+        "text": "",
+        "dataAttrs": [],
+        "ariaAttrs": []
+      },
+      {
+        "index": 29,
+        "tag": "DIV",
+        "classes": "rounded-sm border flex items-center justify-center border-gray-200 \n                        bg-gray-50\n                        \n                        \n                        cursor-pointer\n                        hover:bg-gray-100 hover:scale-105 hover:shadow-md transition-[background-color,box-s",
+        "style": "grid-area: 8 / 6; transform: none;",
+        "rect": {
+          "x": 344,
+          "y": 313,
+          "w": 57,
+          "h": 57
+        },
+        "childCount": 0,
+        "text": "",
+        "dataAttrs": [],
+        "ariaAttrs": []
+      },
+      {
+        "index": 30,
+        "tag": "DIV",
+        "classes": "rounded-sm border flex items-center justify-center border-gray-200 \n                        bg-gray-50\n                        \n                        \n                        cursor-pointer\n                        hover:bg-gray-100 hover:scale-105 hover:shadow-md transition-[background-color,box-s",
+        "style": "grid-area: 8 / 8; transform: none;",
+        "rect": {
+          "x": 416,
+          "y": 313,
+          "w": 57,
+          "h": 57
+        },
+        "childCount": 0,
+        "text": "",
+        "dataAttrs": [],
+        "ariaAttrs": []
+      },
+      {
+        "index": 31,
+        "tag": "DIV",
+        "classes": "rounded-sm border flex items-center justify-center border-gray-200 \n                        bg-gray-50\n                        \n                        \n                        cursor-pointer\n                        hover:bg-gray-100 hover:scale-105 hover:shadow-md transition-[background-color,box-s",
+        "style": "grid-area: 8 / 10; transform: none;",
+        "rect": {
+          "x": 488,
+          "y": 313,
+          "w": 57,
+          "h": 57
+        },
+        "childCount": 0,
+        "text": "",
+        "dataAttrs": [],
+        "ariaAttrs": []
+      },
+      {
+        "index": 32,
+        "tag": "DIV",
+        "classes": "rounded-sm border flex items-center justify-center border-gray-200 \n                        bg-gray-50\n                        \n                        \n                        cursor-pointer\n                        hover:bg-gray-100 hover:scale-105 hover:shadow-md transition-[background-color,box-s",
+        "style": "grid-area: 8 / 12; transform: none;",
+        "rect": {
+          "x": 560,
+          "y": 313,
+          "w": 57,
+          "h": 57
+        },
+        "childCount": 0,
+        "text": "",
+        "dataAttrs": [],
+        "ariaAttrs": []
+      },
+      {
+        "index": 33,
+        "tag": "DIV",
+        "classes": "rounded-sm border flex items-center justify-center border-gray-200 \n                        bg-gray-50\n                        \n                        \n                        cursor-pointer\n                        hover:bg-gray-100 hover:scale-105 hover:shadow-md transition-[background-color,box-s",
+        "style": "grid-area: 8 / 14; transform: none;",
+        "rect": {
+          "x": 631,
+          "y": 313,
+          "w": 57,
+          "h": 57
+        },
+        "childCount": 0,
+        "text": "",
+        "dataAttrs": [],
+        "ariaAttrs": []
+      },
+      {
+        "index": 34,
+        "tag": "DIV",
+        "classes": "rounded-sm border flex items-center justify-center border-gray-200 \n                        bg-gray-50\n                        \n                        \n                        cursor-pointer\n                        hover:bg-gray-100 hover:scale-105 hover:shadow-md transition-[background-color,box-s",
+        "style": "grid-area: 8 / 16; transform: none;",
+        "rect": {
+          "x": 703,
+          "y": 313,
+          "w": 57,
+          "h": 57
+        },
+        "childCount": 0,
+        "text": "",
+        "dataAttrs": [],
+        "ariaAttrs": []
+      },
+      {
+        "index": 35,
+        "tag": "DIV",
+        "classes": "rounded-sm border flex items-center justify-center border-gray-200 \n                        bg-gray-50\n                        \n                        \n                        cursor-pointer\n                        hover:bg-gray-100 hover:scale-105 hover:shadow-md transition-[background-color,box-s",
+        "style": "grid-area: 8 / 18; transform: none;",
+        "rect": {
+          "x": 775,
+          "y": 313,
+          "w": 57,
+          "h": 57
+        },
+        "childCount": 0,
+        "text": "",
+        "dataAttrs": [],
+        "ariaAttrs": []
+      },
+      {
+        "index": 36,
+        "tag": "DIV",
+        "classes": "rounded-sm border flex items-center justify-center border-gray-200 \n                        bg-gray-50\n                        \n                        \n                        cursor-pointer\n                        hover:bg-gray-100 hover:scale-105 hover:shadow-md transition-[background-color,box-s",
+        "style": "grid-area: 10 / 2; transform: none;",
+        "rect": {
+          "x": 201,
+          "y": 385,
+          "w": 57,
+          "h": 57
+        },
+        "childCount": 0,
+        "text": "",
+        "dataAttrs": [],
+        "ariaAttrs": []
+      },
+      {
+        "index": 37,
+        "tag": "DIV",
+        "classes": "rounded-sm border flex items-center justify-center border-gray-200 \n                        bg-gray-50\n                        \n                        \n                        cursor-pointer\n                        hover:bg-gray-100 hover:scale-105 hover:shadow-md transition-[background-color,box-s",
+        "style": "grid-area: 10 / 4; transform: none;",
+        "rect": {
+          "x": 272,
+          "y": 385,
+          "w": 57,
+          "h": 57
+        },
+        "childCount": 0,
+        "text": "",
+        "dataAttrs": [],
+        "ariaAttrs": []
+      },
+      {
+        "index": 38,
+        "tag": "DIV",
+        "classes": "rounded-sm border flex items-center justify-center border-gray-200 \n                        bg-gray-50\n                        \n                        \n                        cursor-pointer\n                        hover:bg-gray-100 hover:scale-105 hover:shadow-md transition-[background-color,box-s",
+        "style": "grid-area: 10 / 6; transform: none;",
+        "rect": {
+          "x": 344,
+          "y": 385,
+          "w": 57,
+          "h": 57
+        },
+        "childCount": 0,
+        "text": "",
+        "dataAttrs": [],
+        "ariaAttrs": []
+      },
+      {
+        "index": 39,
+        "tag": "DIV",
+        "classes": "rounded-sm border flex items-center justify-center border-gray-200 \n                        bg-gray-50\n                        \n                        \n                        cursor-pointer\n                        hover:bg-gray-100 hover:scale-105 hover:shadow-md transition-[background-color,box-s",
+        "style": "grid-area: 10 / 8; transform: none;",
+        "rect": {
+          "x": 416,
+          "y": 385,
+          "w": 57,
+          "h": 57
+        },
+        "childCount": 0,
+        "text": "",
+        "dataAttrs": [],
+        "ariaAttrs": []
+      },
+      {
+        "index": 40,
+        "tag": "DIV",
+        "classes": "rounded-sm border flex items-center justify-center border-gray-200 \n                        bg-gray-50\n                        \n                        \n                        cursor-pointer\n                        hover:bg-gray-100 hover:scale-105 hover:shadow-md transition-[background-color,box-s",
+        "style": "grid-area: 10 / 10; transform: none;",
+        "rect": {
+          "x": 488,
+          "y": 385,
+          "w": 57,
+          "h": 57
+        },
+        "childCount": 0,
+        "text": "",
+        "dataAttrs": [],
+        "ariaAttrs": []
+      },
+      {
+        "index": 41,
+        "tag": "DIV",
+        "classes": "rounded-sm border flex items-center justify-center border-gray-200 \n                        bg-gray-50\n                        \n                        \n                        cursor-pointer\n                        hover:bg-gray-100 hover:scale-105 hover:shadow-md transition-[background-color,box-s",
+        "style": "grid-area: 10 / 12; transform: none;",
+        "rect": {
+          "x": 560,
+          "y": 385,
+          "w": 57,
+          "h": 57
+        },
+        "childCount": 0,
+        "text": "",
+        "dataAttrs": [],
+        "ariaAttrs": []
+      },
+      {
+        "index": 42,
+        "tag": "DIV",
+        "classes": "rounded-sm border flex items-center justify-center border-gray-200 \n                        bg-gray-50\n                        \n                        \n                        cursor-pointer\n                        hover:bg-gray-100 hover:scale-105 hover:shadow-md transition-[background-color,box-s",
+        "style": "grid-area: 10 / 14; transform: none;",
+        "rect": {
+          "x": 631,
+          "y": 385,
+          "w": 57,
+          "h": 57
+        },
+        "childCount": 0,
+        "text": "",
+        "dataAttrs": [],
+        "ariaAttrs": []
+      },
+      {
+        "index": 43,
+        "tag": "DIV",
+        "classes": "rounded-sm border flex items-center justify-center border-gray-200 \n                        bg-gray-50\n                        \n                        \n                        cursor-pointer\n                        hover:bg-gray-100 hover:scale-105 hover:shadow-md transition-[background-color,box-s",
+        "style": "grid-area: 10 / 16; transform: none;",
+        "rect": {
+          "x": 703,
+          "y": 385,
+          "w": 57,
+          "h": 57
+        },
+        "childCount": 0,
+        "text": "",
+        "dataAttrs": [],
+        "ariaAttrs": []
+      },
+      {
+        "index": 44,
+        "tag": "DIV",
+        "classes": "rounded-sm border flex items-center justify-center border-gray-200 \n                        bg-gray-50\n                        \n                        \n                        cursor-pointer\n                        hover:bg-gray-100 hover:scale-105 hover:shadow-md transition-[background-color,box-s",
+        "style": "grid-area: 10 / 18; transform: none;",
+        "rect": {
+          "x": 775,
+          "y": 385,
+          "w": 57,
+          "h": 57
+        },
+        "childCount": 0,
+        "text": "",
+        "dataAttrs": [],
+        "ariaAttrs": []
+      },
+      {
+        "index": 45,
+        "tag": "DIV",
+        "classes": "rounded-sm border flex items-center justify-center border-gray-200 \n                        bg-gray-50\n                        \n                        \n                        cursor-pointer\n                        hover:bg-gray-100 hover:scale-105 hover:shadow-md transition-[background-color,box-s",
+        "style": "grid-area: 12 / 2; transform: none;",
+        "rect": {
+          "x": 201,
+          "y": 457,
+          "w": 57,
+          "h": 57
+        },
+        "childCount": 0,
+        "text": "",
+        "dataAttrs": [],
+        "ariaAttrs": []
+      },
+      {
+        "index": 46,
+        "tag": "DIV",
+        "classes": "rounded-sm border flex items-center justify-center border-gray-200 \n                        bg-gray-50\n                        \n                        \n                        cursor-pointer\n                        hover:bg-gray-100 hover:scale-105 hover:shadow-md transition-[background-color,box-s",
+        "style": "grid-area: 12 / 4; transform: none;",
+        "rect": {
+          "x": 272,
+          "y": 457,
+          "w": 57,
+          "h": 57
+        },
+        "childCount": 0,
+        "text": "",
+        "dataAttrs": [],
+        "ariaAttrs": []
+      },
+      {
+        "index": 47,
+        "tag": "DIV",
+        "classes": "rounded-sm border flex items-center justify-center border-gray-200 \n                        bg-gray-50\n                        \n                        \n                        cursor-pointer\n                        hover:bg-gray-100 hover:scale-105 hover:shadow-md transition-[background-color,box-s",
+        "style": "grid-area: 12 / 6; transform: none;",
+        "rect": {
+          "x": 344,
+          "y": 457,
+          "w": 57,
+          "h": 57
+        },
+        "childCount": 0,
+        "text": "",
+        "dataAttrs": [],
+        "ariaAttrs": []
+      },
+      {
+        "index": 48,
+        "tag": "DIV",
+        "classes": "rounded-sm border flex items-center justify-center border-gray-200 \n                        bg-gray-50\n                        \n                        \n                        cursor-pointer\n                        hover:bg-gray-100 hover:scale-105 hover:shadow-md transition-[background-color,box-s",
+        "style": "grid-area: 12 / 8; transform: none;",
+        "rect": {
+          "x": 416,
+          "y": 457,
+          "w": 57,
+          "h": 57
+        },
+        "childCount": 0,
+        "text": "",
+        "dataAttrs": [],
+        "ariaAttrs": []
+      },
+      {
+        "index": 49,
+        "tag": "DIV",
+        "classes": "rounded-sm border flex items-center justify-center border-gray-200 \n                        bg-gray-50\n                        \n                        \n                        cursor-pointer\n                        hover:bg-gray-100 hover:scale-105 hover:shadow-md transition-[background-color,box-s",
+        "style": "grid-area: 12 / 10; transform: none;",
+        "rect": {
+          "x": 488,
+          "y": 457,
+          "w": 57,
+          "h": 57
+        },
+        "childCount": 0,
+        "text": "",
+        "dataAttrs": [],
+        "ariaAttrs": []
+      },
+      {
+        "index": 50,
+        "tag": "DIV",
+        "classes": "rounded-sm border flex items-center justify-center border-gray-200 \n                        bg-gray-50\n                        \n                        \n                        cursor-pointer\n                        hover:bg-gray-100 hover:scale-105 hover:shadow-md transition-[background-color,box-s",
+        "style": "grid-area: 12 / 12; transform: none;",
+        "rect": {
+          "x": 560,
+          "y": 457,
+          "w": 57,
+          "h": 57
+        },
+        "childCount": 0,
+        "text": "",
+        "dataAttrs": [],
+        "ariaAttrs": []
+      },
+      {
+        "index": 51,
+        "tag": "DIV",
+        "classes": "rounded-sm border flex items-center justify-center border-gray-200 \n                        bg-gray-50\n                        \n                        \n                        cursor-pointer\n                        hover:bg-gray-100 hover:scale-105 hover:shadow-md transition-[background-color,box-s",
+        "style": "grid-area: 12 / 14; transform: none;",
+        "rect": {
+          "x": 631,
+          "y": 457,
+          "w": 57,
+          "h": 57
+        },
+        "childCount": 0,
+        "text": "",
+        "dataAttrs": [],
+        "ariaAttrs": []
+      },
+      {
+        "index": 52,
+        "tag": "DIV",
+        "classes": "rounded-sm border flex items-center justify-center border-gray-200 \n                        bg-gray-50\n                        \n                        \n                        cursor-pointer\n                        hover:bg-gray-100 hover:scale-105 hover:shadow-md transition-[background-color,box-s",
+        "style": "grid-area: 12 / 16; transform: none;",
+        "rect": {
+          "x": 703,
+          "y": 457,
+          "w": 57,
+          "h": 57
+        },
+        "childCount": 0,
+        "text": "",
+        "dataAttrs": [],
+        "ariaAttrs": []
+      },
+      {
+        "index": 53,
+        "tag": "DIV",
+        "classes": "rounded-sm border flex items-center justify-center border-gray-200 \n                        bg-gray-50\n                        \n                        \n                        cursor-pointer\n                        hover:bg-gray-100 hover:scale-105 hover:shadow-md transition-[background-color,box-s",
+        "style": "grid-area: 12 / 18; transform: none;",
+        "rect": {
+          "x": 775,
+          "y": 457,
+          "w": 57,
+          "h": 57
+        },
+        "childCount": 0,
+        "text": "",
+        "dataAttrs": [],
+        "ariaAttrs": []
+      },
+      {
+        "index": 54,
+        "tag": "DIV",
+        "classes": "rounded-sm border flex items-center justify-center border-gray-200 \n                        bg-gray-50\n                        \n                        \n                        cursor-pointer\n                        hover:bg-gray-100 hover:scale-105 hover:shadow-md transition-[background-color,box-s",
+        "style": "grid-area: 14 / 2; transform: none;",
+        "rect": {
+          "x": 201,
+          "y": 528,
+          "w": 57,
+          "h": 57
+        },
+        "childCount": 0,
+        "text": "",
+        "dataAttrs": [],
+        "ariaAttrs": []
+      },
+      {
+        "index": 55,
+        "tag": "DIV",
+        "classes": "rounded-sm border flex items-center justify-center border-gray-200 \n                        bg-gray-50\n                        \n                        \n                        cursor-pointer\n                        hover:bg-gray-100 hover:scale-105 hover:shadow-md transition-[background-color,box-s",
+        "style": "grid-area: 14 / 4; transform: none;",
+        "rect": {
+          "x": 272,
+          "y": 528,
+          "w": 57,
+          "h": 57
+        },
+        "childCount": 0,
+        "text": "",
+        "dataAttrs": [],
+        "ariaAttrs": []
+      },
+      {
+        "index": 56,
+        "tag": "DIV",
+        "classes": "rounded-sm border flex items-center justify-center border-gray-200 \n                        bg-gray-50\n                        \n                        \n                        cursor-pointer\n                        hover:bg-gray-100 hover:scale-105 hover:shadow-md transition-[background-color,box-s",
+        "style": "grid-area: 14 / 6; transform: none;",
+        "rect": {
+          "x": 344,
+          "y": 528,
+          "w": 57,
+          "h": 57
+        },
+        "childCount": 0,
+        "text": "",
+        "dataAttrs": [],
+        "ariaAttrs": []
+      },
+      {
+        "index": 57,
+        "tag": "DIV",
+        "classes": "rounded-sm border flex items-center justify-center border-gray-200 \n                        bg-gray-50\n                        \n                        \n                        cursor-pointer\n                        hover:bg-gray-100 hover:scale-105 hover:shadow-md transition-[background-color,box-s",
+        "style": "grid-area: 14 / 8; transform: none;",
+        "rect": {
+          "x": 416,
+          "y": 528,
+          "w": 57,
+          "h": 57
+        },
+        "childCount": 0,
+        "text": "",
+        "dataAttrs": [],
+        "ariaAttrs": []
+      },
+      {
+        "index": 58,
+        "tag": "DIV",
+        "classes": "rounded-sm border flex items-center justify-center border-gray-200 \n                        bg-gray-50\n                        \n                        \n                        cursor-pointer\n                        hover:bg-gray-100 hover:scale-105 hover:shadow-md transition-[background-color,box-s",
+        "style": "grid-area: 14 / 10; transform: none;",
+        "rect": {
+          "x": 488,
+          "y": 528,
+          "w": 57,
+          "h": 57
+        },
+        "childCount": 0,
+        "text": "",
+        "dataAttrs": [],
+        "ariaAttrs": []
+      },
+      {
+        "index": 59,
+        "tag": "DIV",
+        "classes": "rounded-sm border flex items-center justify-center border-gray-200 \n                        bg-gray-50\n                        \n                        \n                        cursor-pointer\n                        hover:bg-gray-100 hover:scale-105 hover:shadow-md transition-[background-color,box-s",
+        "style": "grid-area: 14 / 12; transform: none;",
+        "rect": {
+          "x": 560,
+          "y": 528,
+          "w": 57,
+          "h": 57
+        },
+        "childCount": 0,
+        "text": "",
+        "dataAttrs": [],
+        "ariaAttrs": []
+      },
+      {
+        "index": 60,
+        "tag": "DIV",
+        "classes": "rounded-sm border flex items-center justify-center border-gray-200 \n                        bg-gray-50\n                        \n                        \n                        cursor-pointer\n                        hover:bg-gray-100 hover:scale-105 hover:shadow-md transition-[background-color,box-s",
+        "style": "grid-area: 14 / 14; transform: none;",
+        "rect": {
+          "x": 631,
+          "y": 528,
+          "w": 57,
+          "h": 57
+        },
+        "childCount": 0,
+        "text": "",
+        "dataAttrs": [],
+        "ariaAttrs": []
+      },
+      {
+        "index": 61,
+        "tag": "DIV",
+        "classes": "rounded-sm border flex items-center justify-center border-gray-200 \n                        bg-gray-50\n                        \n                        \n                        cursor-pointer\n                        hover:bg-gray-100 hover:scale-105 hover:shadow-md transition-[background-color,box-s",
+        "style": "grid-area: 14 / 16; transform: none;",
+        "rect": {
+          "x": 703,
+          "y": 528,
+          "w": 57,
+          "h": 57
+        },
+        "childCount": 0,
+        "text": "",
+        "dataAttrs": [],
+        "ariaAttrs": []
+      },
+      {
+        "index": 62,
+        "tag": "DIV",
+        "classes": "rounded-sm border flex items-center justify-center border-gray-200 \n                        bg-gray-50\n                        \n                        \n                        cursor-pointer\n                        hover:bg-gray-100 hover:scale-105 hover:shadow-md transition-[background-color,box-s",
+        "style": "grid-area: 14 / 18; transform: none;",
+        "rect": {
+          "x": 775,
+          "y": 528,
+          "w": 57,
+          "h": 57
+        },
+        "childCount": 0,
+        "text": "",
+        "dataAttrs": [],
+        "ariaAttrs": []
+      },
+      {
+        "index": 63,
+        "tag": "DIV",
+        "classes": "rounded-sm border flex items-center justify-center border-gray-200 \n                        bg-gray-50\n                        \n                        \n                        cursor-pointer\n                        hover:bg-gray-100 hover:scale-105 hover:shadow-md transition-[background-color,box-s",
+        "style": "grid-area: 16 / 2; transform: none;",
+        "rect": {
+          "x": 201,
+          "y": 600,
+          "w": 57,
+          "h": 57
+        },
+        "childCount": 0,
+        "text": "",
+        "dataAttrs": [],
+        "ariaAttrs": []
+      },
+      {
+        "index": 64,
+        "tag": "DIV",
+        "classes": "rounded-sm border flex items-center justify-center border-gray-200 \n                        bg-gray-50\n                        \n                        \n                        cursor-pointer\n                        hover:bg-gray-100 hover:scale-105 hover:shadow-md transition-[background-color,box-s",
+        "style": "grid-area: 16 / 4; transform: none;",
+        "rect": {
+          "x": 272,
+          "y": 600,
+          "w": 57,
+          "h": 57
+        },
+        "childCount": 0,
+        "text": "",
+        "dataAttrs": [],
+        "ariaAttrs": []
+      },
+      {
+        "index": 65,
+        "tag": "DIV",
+        "classes": "rounded-sm border flex items-center justify-center border-gray-200 \n                        bg-gray-50\n                        \n                        \n                        cursor-pointer\n                        hover:bg-gray-100 hover:scale-105 hover:shadow-md transition-[background-color,box-s",
+        "style": "grid-area: 16 / 6; transform: none;",
+        "rect": {
+          "x": 344,
+          "y": 600,
+          "w": 57,
+          "h": 57
+        },
+        "childCount": 0,
+        "text": "",
+        "dataAttrs": [],
+        "ariaAttrs": []
+      },
+      {
+        "index": 66,
+        "tag": "DIV",
+        "classes": "rounded-sm border flex items-center justify-center border-gray-200 \n                        bg-gray-50\n                        \n                        \n                        cursor-pointer\n                        hover:bg-gray-100 hover:scale-105 hover:shadow-md transition-[background-color,box-s",
+        "style": "grid-area: 16 / 8; transform: none;",
+        "rect": {
+          "x": 416,
+          "y": 600,
+          "w": 57,
+          "h": 57
+        },
+        "childCount": 0,
+        "text": "",
+        "dataAttrs": [],
+        "ariaAttrs": []
+      },
+      {
+        "index": 67,
+        "tag": "DIV",
+        "classes": "rounded-sm border flex items-center justify-center border-gray-200 \n                        bg-gray-50\n                        \n                        \n                        cursor-pointer\n                        ring-2 ring-emerald-400 bg-emerald-50 hover:bg-emerald-100 animate-pulse\n           ",
+        "style": "grid-area: 16 / 10; transform: none;",
+        "rect": {
+          "x": 488,
+          "y": 600,
+          "w": 57,
+          "h": 57
+        },
+        "childCount": 0,
+        "text": "",
+        "dataAttrs": [],
+        "ariaAttrs": []
+      },
+      {
+        "index": 68,
+        "tag": "DIV",
+        "classes": "rounded-sm border flex items-center justify-center border-gray-200 \n                        bg-gray-50\n                        \n                        \n                        cursor-pointer\n                        hover:bg-gray-100 hover:scale-105 hover:shadow-md transition-[background-color,box-s",
+        "style": "grid-area: 16 / 12; transform: none;",
+        "rect": {
+          "x": 560,
+          "y": 600,
+          "w": 57,
+          "h": 57
+        },
+        "childCount": 0,
+        "text": "",
+        "dataAttrs": [],
+        "ariaAttrs": []
+      },
+      {
+        "index": 69,
+        "tag": "DIV",
+        "classes": "rounded-sm border flex items-center justify-center border-gray-200 \n                        bg-gray-50\n                        \n                        \n                        cursor-pointer\n                        hover:bg-gray-100 hover:scale-105 hover:shadow-md transition-[background-color,box-s",
+        "style": "grid-area: 16 / 14; transform: none;",
+        "rect": {
+          "x": 631,
+          "y": 600,
+          "w": 57,
+          "h": 57
+        },
+        "childCount": 0,
+        "text": "",
+        "dataAttrs": [],
+        "ariaAttrs": []
+      },
+      {
+        "index": 70,
+        "tag": "DIV",
+        "classes": "rounded-sm border flex items-center justify-center border-gray-200 \n                        bg-gray-50\n                        \n                        \n                        cursor-pointer\n                        hover:bg-gray-100 hover:scale-105 hover:shadow-md transition-[background-color,box-s",
+        "style": "grid-area: 16 / 16; transform: none;",
+        "rect": {
+          "x": 703,
+          "y": 600,
+          "w": 57,
+          "h": 57
+        },
+        "childCount": 0,
+        "text": "",
+        "dataAttrs": [],
+        "ariaAttrs": []
+      },
+      {
+        "index": 71,
+        "tag": "DIV",
+        "classes": "rounded-sm border flex items-center justify-center border-gray-200 \n                        bg-gray-50\n                        \n                        \n                        cursor-pointer\n                        hover:bg-gray-100 hover:scale-105 hover:shadow-md transition-[background-color,box-s",
+        "style": "grid-area: 16 / 18; transform: none;",
+        "rect": {
+          "x": 775,
+          "y": 600,
+          "w": 57,
+          "h": 57
+        },
+        "childCount": 0,
+        "text": "",
+        "dataAttrs": [],
+        "ariaAttrs": []
+      },
+      {
+        "index": 72,
+        "tag": "DIV",
+        "classes": "rounded-sm border flex items-center justify-center border-gray-200 \n                        bg-gray-50\n                        \n                        \n                        cursor-pointer\n                        hover:bg-gray-100 hover:scale-105 hover:shadow-md transition-[background-color,box-s",
+        "style": "grid-area: 18 / 2; transform: none;",
+        "rect": {
+          "x": 201,
+          "y": 672,
+          "w": 57,
+          "h": 57
+        },
+        "childCount": 0,
+        "text": "",
+        "dataAttrs": [],
+        "ariaAttrs": []
+      },
+      {
+        "index": 73,
+        "tag": "DIV",
+        "classes": "rounded-sm border flex items-center justify-center border-gray-200 \n                        bg-gray-50\n                        \n                        \n                        cursor-pointer\n                        hover:bg-gray-100 hover:scale-105 hover:shadow-md transition-[background-color,box-s",
+        "style": "grid-area: 18 / 4; transform: none;",
+        "rect": {
+          "x": 272,
+          "y": 672,
+          "w": 57,
+          "h": 57
+        },
+        "childCount": 0,
+        "text": "",
+        "dataAttrs": [],
+        "ariaAttrs": []
+      },
+      {
+        "index": 74,
+        "tag": "DIV",
+        "classes": "rounded-sm border flex items-center justify-center border-gray-200 \n                        bg-gray-50\n                        \n                        \n                        cursor-pointer\n                        hover:bg-gray-100 hover:scale-105 hover:shadow-md transition-[background-color,box-s",
+        "style": "grid-area: 18 / 6; transform: none;",
+        "rect": {
+          "x": 344,
+          "y": 672,
+          "w": 57,
+          "h": 57
+        },
+        "childCount": 0,
+        "text": "",
+        "dataAttrs": [],
+        "ariaAttrs": []
+      },
+      {
+        "index": 75,
+        "tag": "DIV",
+        "classes": "rounded-sm border flex items-center justify-center border-gray-200 \n                        bg-gray-50\n                        \n                        \n                        cursor-pointer\n                        ring-2 ring-emerald-400 bg-emerald-50 hover:bg-emerald-100 animate-pulse\n           ",
+        "style": "grid-area: 18 / 8; transform: none;",
+        "rect": {
+          "x": 416,
+          "y": 672,
+          "w": 57,
+          "h": 57
+        },
+        "childCount": 0,
+        "text": "",
+        "dataAttrs": [],
+        "ariaAttrs": []
+      },
+      {
+        "index": 76,
+        "tag": "DIV",
+        "classes": "rounded-sm border flex items-center justify-center border-gray-200 \n                        \n                        bg-gray-50\n                        \n                        cursor-pointer\n                        hover:bg-gray-100 hover:scale-105 hover:shadow-md transition-[background-color,box-s",
+        "style": "grid-area: 18 / 10; transform: none;",
+        "rect": {
+          "x": 488,
+          "y": 672,
+          "w": 57,
+          "h": 57
+        },
+        "childCount": 1,
+        "text": "",
+        "dataAttrs": [],
+        "ariaAttrs": []
+      },
+      {
+        "index": 77,
+        "tag": "DIV",
+        "classes": "rounded-sm border flex items-center justify-center border-gray-200 \n                        bg-gray-50\n                        \n                        \n                        cursor-pointer\n                        ring-2 ring-emerald-400 bg-emerald-50 hover:bg-emerald-100 animate-pulse\n           ",
+        "style": "grid-area: 18 / 12; transform: none;",
+        "rect": {
+          "x": 560,
+          "y": 672,
+          "w": 57,
+          "h": 57
+        },
+        "childCount": 0,
+        "text": "",
+        "dataAttrs": [],
+        "ariaAttrs": []
+      },
+      {
+        "index": 78,
+        "tag": "DIV",
+        "classes": "rounded-sm border flex items-center justify-center border-gray-200 \n                        bg-gray-50\n                        \n                        \n                        cursor-pointer\n                        hover:bg-gray-100 hover:scale-105 hover:shadow-md transition-[background-color,box-s",
+        "style": "grid-area: 18 / 14; transform: none;",
+        "rect": {
+          "x": 631,
+          "y": 672,
+          "w": 57,
+          "h": 57
+        },
+        "childCount": 0,
+        "text": "",
+        "dataAttrs": [],
+        "ariaAttrs": []
+      },
+      {
+        "index": 79,
+        "tag": "DIV",
+        "classes": "rounded-sm border flex items-center justify-center border-gray-200 \n                        bg-gray-50\n                        \n                        \n                        cursor-pointer\n                        hover:bg-gray-100 hover:scale-105 hover:shadow-md transition-[background-color,box-s",
+        "style": "grid-area: 18 / 16; transform: none;",
+        "rect": {
+          "x": 703,
+          "y": 672,
+          "w": 57,
+          "h": 57
+        },
+        "childCount": 0,
+        "text": "",
+        "dataAttrs": [],
+        "ariaAttrs": []
+      },
+      {
+        "index": 80,
+        "tag": "DIV",
+        "classes": "rounded-sm border flex items-center justify-center border-gray-200 \n                        bg-gray-50\n                        \n                        \n                        cursor-pointer\n                        hover:bg-gray-100 hover:scale-105 hover:shadow-md transition-[background-color,box-s",
+        "style": "grid-area: 18 / 18; transform: none;",
+        "rect": {
+          "x": 775,
+          "y": 672,
+          "w": 57,
+          "h": 57
+        },
+        "childCount": 0,
+        "text": "",
+        "dataAttrs": [],
+        "ariaAttrs": []
+      },
+      {
+        "index": 81,
+        "tag": "DIV",
+        "classes": "group focus:outline-none focus:ring-0 active:outline-none",
+        "style": "grid-area: 3 / 2 / 4 / 5; position: relative; cursor: pointer; opacity: 1; pointer-events: auto; -webkit-tap-highlight-color: transparent; outline: none; touch-action: manipulation; transition: opacity 0.2s ease-in-out;",
+        "rect": {
+          "x": 201,
+          "y": 155,
+          "w": 129,
+          "h": 14
+        },
+        "childCount": 1,
+        "text": "",
+        "dataAttrs": [
+          "data-testid=slot-horizontal-0-0"
+        ],
+        "ariaAttrs": []
+      },
+      {
+        "index": 82,
+        "tag": "DIV",
+        "classes": "group focus:outline-none focus:ring-0 active:outline-none",
+        "style": "grid-area: 3 / 4 / 4 / 7; position: relative; cursor: pointer; opacity: 1; pointer-events: auto; -webkit-tap-highlight-color: transparent; outline: none; touch-action: manipulation; transition: opacity 0.2s ease-in-out;",
+        "rect": {
+          "x": 272,
+          "y": 155,
+          "w": 129,
+          "h": 14
+        },
+        "childCount": 1,
+        "text": "",
+        "dataAttrs": [
+          "data-testid=slot-horizontal-0-1"
+        ],
+        "ariaAttrs": []
+      },
+      {
+        "index": 83,
+        "tag": "DIV",
+        "classes": "group focus:outline-none focus:ring-0 active:outline-none",
+        "style": "grid-area: 3 / 6 / 4 / 9; position: relative; cursor: pointer; opacity: 1; pointer-events: auto; -webkit-tap-highlight-color: transparent; outline: none; touch-action: manipulation; transition: opacity 0.2s ease-in-out;",
+        "rect": {
+          "x": 344,
+          "y": 155,
+          "w": 129,
+          "h": 14
+        },
+        "childCount": 1,
+        "text": "",
+        "dataAttrs": [
+          "data-testid=slot-horizontal-0-2"
+        ],
+        "ariaAttrs": []
+      },
+      {
+        "index": 84,
+        "tag": "DIV",
+        "classes": "group focus:outline-none focus:ring-0 active:outline-none",
+        "style": "grid-area: 3 / 8 / 4 / 11; position: relative; cursor: pointer; opacity: 1; pointer-events: auto; -webkit-tap-highlight-color: transparent; outline: none; touch-action: manipulation; transition: opacity 0.2s ease-in-out;",
+        "rect": {
+          "x": 416,
+          "y": 155,
+          "w": 129,
+          "h": 14
+        },
+        "childCount": 1,
+        "text": "",
+        "dataAttrs": [
+          "data-testid=slot-horizontal-0-3"
+        ],
+        "ariaAttrs": []
+      },
+      {
+        "index": 85,
+        "tag": "DIV",
+        "classes": "group focus:outline-none focus:ring-0 active:outline-none",
+        "style": "grid-area: 3 / 10 / 4 / 13; position: relative; cursor: pointer; opacity: 1; pointer-events: auto; -webkit-tap-highlight-color: transparent; outline: none; touch-action: manipulation; transition: opacity 0.2s ease-in-out;",
+        "rect": {
+          "x": 488,
+          "y": 155,
+          "w": 129,
+          "h": 14
+        },
+        "childCount": 1,
+        "text": "",
+        "dataAttrs": [
+          "data-testid=slot-horizontal-0-4"
+        ],
+        "ariaAttrs": []
+      },
+      {
+        "index": 86,
+        "tag": "DIV",
+        "classes": "group focus:outline-none focus:ring-0 active:outline-none",
+        "style": "grid-area: 3 / 12 / 4 / 15; position: relative; cursor: pointer; opacity: 1; pointer-events: auto; -webkit-tap-highlight-color: transparent; outline: none; touch-action: manipulation; transition: opacity 0.2s ease-in-out;",
+        "rect": {
+          "x": 560,
+          "y": 155,
+          "w": 129,
+          "h": 14
+        },
+        "childCount": 1,
+        "text": "",
+        "dataAttrs": [
+          "data-testid=slot-horizontal-0-5"
+        ],
+        "ariaAttrs": []
+      },
+      {
+        "index": 87,
+        "tag": "DIV",
+        "classes": "group focus:outline-none focus:ring-0 active:outline-none",
+        "style": "grid-area: 3 / 14 / 4 / 17; position: relative; cursor: pointer; opacity: 1; pointer-events: auto; -webkit-tap-highlight-color: transparent; outline: none; touch-action: manipulation; transition: opacity 0.2s ease-in-out;",
+        "rect": {
+          "x": 631,
+          "y": 155,
+          "w": 129,
+          "h": 14
+        },
+        "childCount": 1,
+        "text": "",
+        "dataAttrs": [
+          "data-testid=slot-horizontal-0-6"
+        ],
+        "ariaAttrs": []
+      },
+      {
+        "index": 88,
+        "tag": "DIV",
+        "classes": "group focus:outline-none focus:ring-0 active:outline-none",
+        "style": "grid-area: 3 / 16 / 4 / 19; position: relative; cursor: pointer; opacity: 1; pointer-events: auto; -webkit-tap-highlight-color: transparent; outline: none; touch-action: manipulation; transition: opacity 0.2s ease-in-out;",
+        "rect": {
+          "x": 703,
+          "y": 155,
+          "w": 129,
+          "h": 14
+        },
+        "childCount": 1,
+        "text": "",
+        "dataAttrs": [
+          "data-testid=slot-horizontal-0-7"
+        ],
+        "ariaAttrs": []
+      },
+      {
+        "index": 89,
+        "tag": "DIV",
+        "classes": "group focus:outline-none focus:ring-0 active:outline-none",
+        "style": "grid-area: 5 / 2 / 6 / 5; position: relative; cursor: pointer; opacity: 1; pointer-events: auto; -webkit-tap-highlight-color: transparent; outline: none; touch-action: manipulation; transition: opacity 0.2s ease-in-out;",
+        "rect": {
+          "x": 201,
+          "y": 227,
+          "w": 129,
+          "h": 14
+        },
+        "childCount": 1,
+        "text": "",
+        "dataAttrs": [
+          "data-testid=slot-horizontal-1-0"
+        ],
+        "ariaAttrs": []
+      },
+      {
+        "index": 90,
+        "tag": "DIV",
+        "classes": "group focus:outline-none focus:ring-0 active:outline-none",
+        "style": "grid-area: 5 / 4 / 6 / 7; position: relative; cursor: pointer; opacity: 1; pointer-events: auto; -webkit-tap-highlight-color: transparent; outline: none; touch-action: manipulation; transition: opacity 0.2s ease-in-out;",
+        "rect": {
+          "x": 272,
+          "y": 227,
+          "w": 129,
+          "h": 14
+        },
+        "childCount": 1,
+        "text": "",
+        "dataAttrs": [
+          "data-testid=slot-horizontal-1-1"
+        ],
+        "ariaAttrs": []
+      },
+      {
+        "index": 91,
+        "tag": "DIV",
+        "classes": "group focus:outline-none focus:ring-0 active:outline-none",
+        "style": "grid-area: 5 / 6 / 6 / 9; position: relative; cursor: pointer; opacity: 1; pointer-events: auto; -webkit-tap-highlight-color: transparent; outline: none; touch-action: manipulation; transition: opacity 0.2s ease-in-out;",
+        "rect": {
+          "x": 344,
+          "y": 227,
+          "w": 129,
+          "h": 14
+        },
+        "childCount": 1,
+        "text": "",
+        "dataAttrs": [
+          "data-testid=slot-horizontal-1-2"
+        ],
+        "ariaAttrs": []
+      },
+      {
+        "index": 92,
+        "tag": "DIV",
+        "classes": "group focus:outline-none focus:ring-0 active:outline-none",
+        "style": "grid-area: 5 / 8 / 6 / 11; position: relative; cursor: pointer; opacity: 1; pointer-events: auto; -webkit-tap-highlight-color: transparent; outline: none; touch-action: manipulation; transition: opacity 0.2s ease-in-out;",
+        "rect": {
+          "x": 416,
+          "y": 227,
+          "w": 129,
+          "h": 14
+        },
+        "childCount": 1,
+        "text": "",
+        "dataAttrs": [
+          "data-testid=slot-horizontal-1-3"
+        ],
+        "ariaAttrs": []
+      },
+      {
+        "index": 93,
+        "tag": "DIV",
+        "classes": "group focus:outline-none focus:ring-0 active:outline-none",
+        "style": "grid-area: 5 / 10 / 6 / 13; position: relative; cursor: pointer; opacity: 1; pointer-events: auto; -webkit-tap-highlight-color: transparent; outline: none; touch-action: manipulation; transition: opacity 0.2s ease-in-out;",
+        "rect": {
+          "x": 488,
+          "y": 227,
+          "w": 129,
+          "h": 14
+        },
+        "childCount": 1,
+        "text": "",
+        "dataAttrs": [
+          "data-testid=slot-horizontal-1-4"
+        ],
+        "ariaAttrs": []
+      },
+      {
+        "index": 94,
+        "tag": "DIV",
+        "classes": "group focus:outline-none focus:ring-0 active:outline-none",
+        "style": "grid-area: 5 / 12 / 6 / 15; position: relative; cursor: pointer; opacity: 1; pointer-events: auto; -webkit-tap-highlight-color: transparent; outline: none; touch-action: manipulation; transition: opacity 0.2s ease-in-out;",
+        "rect": {
+          "x": 560,
+          "y": 227,
+          "w": 129,
+          "h": 14
+        },
+        "childCount": 1,
+        "text": "",
+        "dataAttrs": [
+          "data-testid=slot-horizontal-1-5"
+        ],
+        "ariaAttrs": []
+      },
+      {
+        "index": 95,
+        "tag": "DIV",
+        "classes": "group focus:outline-none focus:ring-0 active:outline-none",
+        "style": "grid-area: 5 / 14 / 6 / 17; position: relative; cursor: pointer; opacity: 1; pointer-events: auto; -webkit-tap-highlight-color: transparent; outline: none; touch-action: manipulation; transition: opacity 0.2s ease-in-out;",
+        "rect": {
+          "x": 631,
+          "y": 227,
+          "w": 129,
+          "h": 14
+        },
+        "childCount": 1,
+        "text": "",
+        "dataAttrs": [
+          "data-testid=slot-horizontal-1-6"
+        ],
+        "ariaAttrs": []
+      },
+      {
+        "index": 96,
+        "tag": "DIV",
+        "classes": "group focus:outline-none focus:ring-0 active:outline-none",
+        "style": "grid-area: 5 / 16 / 6 / 19; position: relative; cursor: pointer; opacity: 1; pointer-events: auto; -webkit-tap-highlight-color: transparent; outline: none; touch-action: manipulation; transition: opacity 0.2s ease-in-out;",
+        "rect": {
+          "x": 703,
+          "y": 227,
+          "w": 129,
+          "h": 14
+        },
+        "childCount": 1,
+        "text": "",
+        "dataAttrs": [
+          "data-testid=slot-horizontal-1-7"
+        ],
+        "ariaAttrs": []
+      },
+      {
+        "index": 97,
+        "tag": "DIV",
+        "classes": "group focus:outline-none focus:ring-0 active:outline-none",
+        "style": "grid-area: 7 / 2 / 8 / 5; position: relative; cursor: pointer; opacity: 1; pointer-events: auto; -webkit-tap-highlight-color: transparent; outline: none; touch-action: manipulation; transition: opacity 0.2s ease-in-out;",
+        "rect": {
+          "x": 201,
+          "y": 299,
+          "w": 129,
+          "h": 14
+        },
+        "childCount": 1,
+        "text": "",
+        "dataAttrs": [
+          "data-testid=slot-horizontal-2-0"
+        ],
+        "ariaAttrs": []
+      },
+      {
+        "index": 98,
+        "tag": "DIV",
+        "classes": "group focus:outline-none focus:ring-0 active:outline-none",
+        "style": "grid-area: 7 / 4 / 8 / 7; position: relative; cursor: pointer; opacity: 1; pointer-events: auto; -webkit-tap-highlight-color: transparent; outline: none; touch-action: manipulation; transition: opacity 0.2s ease-in-out;",
+        "rect": {
+          "x": 272,
+          "y": 299,
+          "w": 129,
+          "h": 14
+        },
+        "childCount": 1,
+        "text": "",
+        "dataAttrs": [
+          "data-testid=slot-horizontal-2-1"
+        ],
+        "ariaAttrs": []
+      },
+      {
+        "index": 99,
+        "tag": "DIV",
+        "classes": "group focus:outline-none focus:ring-0 active:outline-none",
+        "style": "grid-area: 7 / 6 / 8 / 9; position: relative; cursor: pointer; opacity: 1; pointer-events: auto; -webkit-tap-highlight-color: transparent; outline: none; touch-action: manipulation; transition: opacity 0.2s ease-in-out;",
+        "rect": {
+          "x": 344,
+          "y": 299,
+          "w": 129,
+          "h": 14
+        },
+        "childCount": 1,
+        "text": "",
+        "dataAttrs": [
+          "data-testid=slot-horizontal-2-2"
+        ],
+        "ariaAttrs": []
+      },
+      {
+        "index": 100,
+        "tag": "DIV",
+        "classes": "group focus:outline-none focus:ring-0 active:outline-none",
+        "style": "grid-area: 7 / 8 / 8 / 11; position: relative; cursor: pointer; opacity: 1; pointer-events: auto; -webkit-tap-highlight-color: transparent; outline: none; touch-action: manipulation; transition: opacity 0.2s ease-in-out;",
+        "rect": {
+          "x": 416,
+          "y": 299,
+          "w": 129,
+          "h": 14
+        },
+        "childCount": 1,
+        "text": "",
+        "dataAttrs": [
+          "data-testid=slot-horizontal-2-3"
+        ],
+        "ariaAttrs": []
+      },
+      {
+        "index": 101,
+        "tag": "DIV",
+        "classes": "group focus:outline-none focus:ring-0 active:outline-none",
+        "style": "grid-area: 7 / 10 / 8 / 13; position: relative; cursor: pointer; opacity: 1; pointer-events: auto; -webkit-tap-highlight-color: transparent; outline: none; touch-action: manipulation; transition: opacity 0.2s ease-in-out;",
+        "rect": {
+          "x": 488,
+          "y": 299,
+          "w": 129,
+          "h": 14
+        },
+        "childCount": 1,
+        "text": "",
+        "dataAttrs": [
+          "data-testid=slot-horizontal-2-4"
+        ],
+        "ariaAttrs": []
+      },
+      {
+        "index": 102,
+        "tag": "DIV",
+        "classes": "group focus:outline-none focus:ring-0 active:outline-none",
+        "style": "grid-area: 7 / 12 / 8 / 15; position: relative; cursor: pointer; opacity: 1; pointer-events: auto; -webkit-tap-highlight-color: transparent; outline: none; touch-action: manipulation; transition: opacity 0.2s ease-in-out;",
+        "rect": {
+          "x": 560,
+          "y": 299,
+          "w": 129,
+          "h": 14
+        },
+        "childCount": 1,
+        "text": "",
+        "dataAttrs": [
+          "data-testid=slot-horizontal-2-5"
+        ],
+        "ariaAttrs": []
+      },
+      {
+        "index": 103,
+        "tag": "DIV",
+        "classes": "group focus:outline-none focus:ring-0 active:outline-none",
+        "style": "grid-area: 7 / 14 / 8 / 17; position: relative; cursor: pointer; opacity: 1; pointer-events: auto; -webkit-tap-highlight-color: transparent; outline: none; touch-action: manipulation; transition: opacity 0.2s ease-in-out;",
+        "rect": {
+          "x": 631,
+          "y": 299,
+          "w": 129,
+          "h": 14
+        },
+        "childCount": 1,
+        "text": "",
+        "dataAttrs": [
+          "data-testid=slot-horizontal-2-6"
+        ],
+        "ariaAttrs": []
+      },
+      {
+        "index": 104,
+        "tag": "DIV",
+        "classes": "group focus:outline-none focus:ring-0 active:outline-none",
+        "style": "grid-area: 7 / 16 / 8 / 19; position: relative; cursor: pointer; opacity: 1; pointer-events: auto; -webkit-tap-highlight-color: transparent; outline: none; touch-action: manipulation; transition: opacity 0.2s ease-in-out;",
+        "rect": {
+          "x": 703,
+          "y": 299,
+          "w": 129,
+          "h": 14
+        },
+        "childCount": 1,
+        "text": "",
+        "dataAttrs": [
+          "data-testid=slot-horizontal-2-7"
+        ],
+        "ariaAttrs": []
+      },
+      {
+        "index": 105,
+        "tag": "DIV",
+        "classes": "group focus:outline-none focus:ring-0 active:outline-none",
+        "style": "grid-area: 9 / 2 / 10 / 5; position: relative; cursor: pointer; opacity: 1; pointer-events: auto; -webkit-tap-highlight-color: transparent; outline: none; touch-action: manipulation; transition: opacity 0.2s ease-in-out;",
+        "rect": {
+          "x": 201,
+          "y": 370,
+          "w": 129,
+          "h": 14
+        },
+        "childCount": 1,
+        "text": "",
+        "dataAttrs": [
+          "data-testid=slot-horizontal-3-0"
+        ],
+        "ariaAttrs": []
+      },
+      {
+        "index": 106,
+        "tag": "DIV",
+        "classes": "group focus:outline-none focus:ring-0 active:outline-none",
+        "style": "grid-area: 9 / 4 / 10 / 7; position: relative; cursor: pointer; opacity: 1; pointer-events: auto; -webkit-tap-highlight-color: transparent; outline: none; touch-action: manipulation; transition: opacity 0.2s ease-in-out;",
+        "rect": {
+          "x": 272,
+          "y": 370,
+          "w": 129,
+          "h": 14
+        },
+        "childCount": 1,
+        "text": "",
+        "dataAttrs": [
+          "data-testid=slot-horizontal-3-1"
+        ],
+        "ariaAttrs": []
+      },
+      {
+        "index": 107,
+        "tag": "DIV",
+        "classes": "group focus:outline-none focus:ring-0 active:outline-none",
+        "style": "grid-area: 9 / 6 / 10 / 9; position: relative; cursor: pointer; opacity: 1; pointer-events: auto; -webkit-tap-highlight-color: transparent; outline: none; touch-action: manipulation; transition: opacity 0.2s ease-in-out;",
+        "rect": {
+          "x": 344,
+          "y": 370,
+          "w": 129,
+          "h": 14
+        },
+        "childCount": 1,
+        "text": "",
+        "dataAttrs": [
+          "data-testid=slot-horizontal-3-2"
+        ],
+        "ariaAttrs": []
+      },
+      {
+        "index": 108,
+        "tag": "DIV",
+        "classes": "group focus:outline-none focus:ring-0 active:outline-none",
+        "style": "grid-area: 9 / 8 / 10 / 11; position: relative; cursor: pointer; opacity: 1; pointer-events: auto; -webkit-tap-highlight-color: transparent; outline: none; touch-action: manipulation; transition: opacity 0.2s ease-in-out;",
+        "rect": {
+          "x": 416,
+          "y": 370,
+          "w": 129,
+          "h": 14
+        },
+        "childCount": 1,
+        "text": "",
+        "dataAttrs": [
+          "data-testid=slot-horizontal-3-3"
+        ],
+        "ariaAttrs": []
+      },
+      {
+        "index": 109,
+        "tag": "DIV",
+        "classes": "group focus:outline-none focus:ring-0 active:outline-none",
+        "style": "grid-area: 9 / 10 / 10 / 13; position: relative; cursor: pointer; opacity: 1; pointer-events: auto; -webkit-tap-highlight-color: transparent; outline: none; touch-action: manipulation; transition: opacity 0.2s ease-in-out;",
+        "rect": {
+          "x": 488,
+          "y": 370,
+          "w": 129,
+          "h": 14
+        },
+        "childCount": 1,
+        "text": "",
+        "dataAttrs": [
+          "data-testid=slot-horizontal-3-4"
+        ],
+        "ariaAttrs": []
+      },
+      {
+        "index": 110,
+        "tag": "DIV",
+        "classes": "group focus:outline-none focus:ring-0 active:outline-none",
+        "style": "grid-area: 9 / 12 / 10 / 15; position: relative; cursor: pointer; opacity: 1; pointer-events: auto; -webkit-tap-highlight-color: transparent; outline: none; touch-action: manipulation; transition: opacity 0.2s ease-in-out;",
+        "rect": {
+          "x": 560,
+          "y": 370,
+          "w": 129,
+          "h": 14
+        },
+        "childCount": 1,
+        "text": "",
+        "dataAttrs": [
+          "data-testid=slot-horizontal-3-5"
+        ],
+        "ariaAttrs": []
+      },
+      {
+        "index": 111,
+        "tag": "DIV",
+        "classes": "group focus:outline-none focus:ring-0 active:outline-none",
+        "style": "grid-area: 9 / 14 / 10 / 17; position: relative; cursor: pointer; opacity: 1; pointer-events: auto; -webkit-tap-highlight-color: transparent; outline: none; touch-action: manipulation; transition: opacity 0.2s ease-in-out;",
+        "rect": {
+          "x": 631,
+          "y": 370,
+          "w": 129,
+          "h": 14
+        },
+        "childCount": 1,
+        "text": "",
+        "dataAttrs": [
+          "data-testid=slot-horizontal-3-6"
+        ],
+        "ariaAttrs": []
+      },
+      {
+        "index": 112,
+        "tag": "DIV",
+        "classes": "group focus:outline-none focus:ring-0 active:outline-none",
+        "style": "grid-area: 9 / 16 / 10 / 19; position: relative; cursor: pointer; opacity: 1; pointer-events: auto; -webkit-tap-highlight-color: transparent; outline: none; touch-action: manipulation; transition: opacity 0.2s ease-in-out;",
+        "rect": {
+          "x": 703,
+          "y": 370,
+          "w": 129,
+          "h": 14
+        },
+        "childCount": 1,
+        "text": "",
+        "dataAttrs": [
+          "data-testid=slot-horizontal-3-7"
+        ],
+        "ariaAttrs": []
+      },
+      {
+        "index": 113,
+        "tag": "DIV",
+        "classes": "group focus:outline-none focus:ring-0 active:outline-none",
+        "style": "grid-area: 11 / 2 / 12 / 5; position: relative; cursor: pointer; opacity: 1; pointer-events: auto; -webkit-tap-highlight-color: transparent; outline: none; touch-action: manipulation; transition: opacity 0.2s ease-in-out;",
+        "rect": {
+          "x": 201,
+          "y": 442,
+          "w": 129,
+          "h": 14
+        },
+        "childCount": 1,
+        "text": "",
+        "dataAttrs": [
+          "data-testid=slot-horizontal-4-0"
+        ],
+        "ariaAttrs": []
+      },
+      {
+        "index": 114,
+        "tag": "DIV",
+        "classes": "group focus:outline-none focus:ring-0 active:outline-none",
+        "style": "grid-area: 11 / 4 / 12 / 7; position: relative; cursor: pointer; opacity: 1; pointer-events: auto; -webkit-tap-highlight-color: transparent; outline: none; touch-action: manipulation; transition: opacity 0.2s ease-in-out;",
+        "rect": {
+          "x": 272,
+          "y": 442,
+          "w": 129,
+          "h": 14
+        },
+        "childCount": 1,
+        "text": "",
+        "dataAttrs": [
+          "data-testid=slot-horizontal-4-1"
+        ],
+        "ariaAttrs": []
+      },
+      {
+        "index": 115,
+        "tag": "DIV",
+        "classes": "group focus:outline-none focus:ring-0 active:outline-none",
+        "style": "grid-area: 11 / 6 / 12 / 9; position: relative; cursor: pointer; opacity: 1; pointer-events: auto; -webkit-tap-highlight-color: transparent; outline: none; touch-action: manipulation; transition: opacity 0.2s ease-in-out;",
+        "rect": {
+          "x": 344,
+          "y": 442,
+          "w": 129,
+          "h": 14
+        },
+        "childCount": 1,
+        "text": "",
+        "dataAttrs": [
+          "data-testid=slot-horizontal-4-2"
+        ],
+        "ariaAttrs": []
+      },
+      {
+        "index": 116,
+        "tag": "DIV",
+        "classes": "group focus:outline-none focus:ring-0 active:outline-none",
+        "style": "grid-area: 11 / 8 / 12 / 11; position: relative; cursor: pointer; opacity: 1; pointer-events: auto; -webkit-tap-highlight-color: transparent; outline: none; touch-action: manipulation; transition: opacity 0.2s ease-in-out;",
+        "rect": {
+          "x": 416,
+          "y": 442,
+          "w": 129,
+          "h": 14
+        },
+        "childCount": 1,
+        "text": "",
+        "dataAttrs": [
+          "data-testid=slot-horizontal-4-3"
+        ],
+        "ariaAttrs": []
+      },
+      {
+        "index": 117,
+        "tag": "DIV",
+        "classes": "group focus:outline-none focus:ring-0 active:outline-none",
+        "style": "grid-area: 11 / 10 / 12 / 13; position: relative; cursor: pointer; opacity: 1; pointer-events: auto; -webkit-tap-highlight-color: transparent; outline: none; touch-action: manipulation; transition: opacity 0.2s ease-in-out;",
+        "rect": {
+          "x": 488,
+          "y": 442,
+          "w": 129,
+          "h": 14
+        },
+        "childCount": 1,
+        "text": "",
+        "dataAttrs": [
+          "data-testid=slot-horizontal-4-4"
+        ],
+        "ariaAttrs": []
+      },
+      {
+        "index": 118,
+        "tag": "DIV",
+        "classes": "group focus:outline-none focus:ring-0 active:outline-none",
+        "style": "grid-area: 11 / 12 / 12 / 15; position: relative; cursor: pointer; opacity: 1; pointer-events: auto; -webkit-tap-highlight-color: transparent; outline: none; touch-action: manipulation; transition: opacity 0.2s ease-in-out;",
+        "rect": {
+          "x": 560,
+          "y": 442,
+          "w": 129,
+          "h": 14
+        },
+        "childCount": 1,
+        "text": "",
+        "dataAttrs": [
+          "data-testid=slot-horizontal-4-5"
+        ],
+        "ariaAttrs": []
+      },
+      {
+        "index": 119,
+        "tag": "DIV",
+        "classes": "group focus:outline-none focus:ring-0 active:outline-none",
+        "style": "grid-area: 11 / 14 / 12 / 17; position: relative; cursor: pointer; opacity: 1; pointer-events: auto; -webkit-tap-highlight-color: transparent; outline: none; touch-action: manipulation; transition: opacity 0.2s ease-in-out;",
+        "rect": {
+          "x": 631,
+          "y": 442,
+          "w": 129,
+          "h": 14
+        },
+        "childCount": 1,
+        "text": "",
+        "dataAttrs": [
+          "data-testid=slot-horizontal-4-6"
+        ],
+        "ariaAttrs": []
+      },
+      {
+        "index": 120,
+        "tag": "DIV",
+        "classes": "group focus:outline-none focus:ring-0 active:outline-none",
+        "style": "grid-area: 11 / 16 / 12 / 19; position: relative; cursor: pointer; opacity: 1; pointer-events: auto; -webkit-tap-highlight-color: transparent; outline: none; touch-action: manipulation; transition: opacity 0.2s ease-in-out;",
+        "rect": {
+          "x": 703,
+          "y": 442,
+          "w": 129,
+          "h": 14
+        },
+        "childCount": 1,
+        "text": "",
+        "dataAttrs": [
+          "data-testid=slot-horizontal-4-7"
+        ],
+        "ariaAttrs": []
+      },
+      {
+        "index": 121,
+        "tag": "DIV",
+        "classes": "group focus:outline-none focus:ring-0 active:outline-none",
+        "style": "grid-area: 13 / 2 / 14 / 5; position: relative; cursor: pointer; opacity: 1; pointer-events: auto; -webkit-tap-highlight-color: transparent; outline: none; touch-action: manipulation; transition: opacity 0.2s ease-in-out;",
+        "rect": {
+          "x": 201,
+          "y": 514,
+          "w": 129,
+          "h": 14
+        },
+        "childCount": 1,
+        "text": "",
+        "dataAttrs": [
+          "data-testid=slot-horizontal-5-0"
+        ],
+        "ariaAttrs": []
+      },
+      {
+        "index": 122,
+        "tag": "DIV",
+        "classes": "group focus:outline-none focus:ring-0 active:outline-none",
+        "style": "grid-area: 13 / 4 / 14 / 7; position: relative; cursor: pointer; opacity: 1; pointer-events: auto; -webkit-tap-highlight-color: transparent; outline: none; touch-action: manipulation; transition: opacity 0.2s ease-in-out;",
+        "rect": {
+          "x": 272,
+          "y": 514,
+          "w": 129,
+          "h": 14
+        },
+        "childCount": 1,
+        "text": "",
+        "dataAttrs": [
+          "data-testid=slot-horizontal-5-1"
+        ],
+        "ariaAttrs": []
+      },
+      {
+        "index": 123,
+        "tag": "DIV",
+        "classes": "group focus:outline-none focus:ring-0 active:outline-none",
+        "style": "grid-area: 13 / 6 / 14 / 9; position: relative; cursor: pointer; opacity: 1; pointer-events: auto; -webkit-tap-highlight-color: transparent; outline: none; touch-action: manipulation; transition: opacity 0.2s ease-in-out;",
+        "rect": {
+          "x": 344,
+          "y": 514,
+          "w": 129,
+          "h": 14
+        },
+        "childCount": 1,
+        "text": "",
+        "dataAttrs": [
+          "data-testid=slot-horizontal-5-2"
+        ],
+        "ariaAttrs": []
+      },
+      {
+        "index": 124,
+        "tag": "DIV",
+        "classes": "group focus:outline-none focus:ring-0 active:outline-none",
+        "style": "grid-area: 13 / 8 / 14 / 11; position: relative; cursor: pointer; opacity: 1; pointer-events: auto; -webkit-tap-highlight-color: transparent; outline: none; touch-action: manipulation; transition: opacity 0.2s ease-in-out;",
+        "rect": {
+          "x": 416,
+          "y": 514,
+          "w": 129,
+          "h": 14
+        },
+        "childCount": 1,
+        "text": "",
+        "dataAttrs": [
+          "data-testid=slot-horizontal-5-3"
+        ],
+        "ariaAttrs": []
+      },
+      {
+        "index": 125,
+        "tag": "DIV",
+        "classes": "group focus:outline-none focus:ring-0 active:outline-none",
+        "style": "grid-area: 13 / 10 / 14 / 13; position: relative; cursor: pointer; opacity: 1; pointer-events: auto; -webkit-tap-highlight-color: transparent; outline: none; touch-action: manipulation; transition: opacity 0.2s ease-in-out;",
+        "rect": {
+          "x": 488,
+          "y": 514,
+          "w": 129,
+          "h": 14
+        },
+        "childCount": 1,
+        "text": "",
+        "dataAttrs": [
+          "data-testid=slot-horizontal-5-4"
+        ],
+        "ariaAttrs": []
+      },
+      {
+        "index": 126,
+        "tag": "DIV",
+        "classes": "group focus:outline-none focus:ring-0 active:outline-none",
+        "style": "grid-area: 13 / 12 / 14 / 15; position: relative; cursor: pointer; opacity: 1; pointer-events: auto; -webkit-tap-highlight-color: transparent; outline: none; touch-action: manipulation; transition: opacity 0.2s ease-in-out;",
+        "rect": {
+          "x": 560,
+          "y": 514,
+          "w": 129,
+          "h": 14
+        },
+        "childCount": 1,
+        "text": "",
+        "dataAttrs": [
+          "data-testid=slot-horizontal-5-5"
+        ],
+        "ariaAttrs": []
+      },
+      {
+        "index": 127,
+        "tag": "DIV",
+        "classes": "group focus:outline-none focus:ring-0 active:outline-none",
+        "style": "grid-area: 13 / 14 / 14 / 17; position: relative; cursor: pointer; opacity: 1; pointer-events: auto; -webkit-tap-highlight-color: transparent; outline: none; touch-action: manipulation; transition: opacity 0.2s ease-in-out;",
+        "rect": {
+          "x": 631,
+          "y": 514,
+          "w": 129,
+          "h": 14
+        },
+        "childCount": 1,
+        "text": "",
+        "dataAttrs": [
+          "data-testid=slot-horizontal-5-6"
+        ],
+        "ariaAttrs": []
+      },
+      {
+        "index": 128,
+        "tag": "DIV",
+        "classes": "group focus:outline-none focus:ring-0 active:outline-none",
+        "style": "grid-area: 13 / 16 / 14 / 19; position: relative; cursor: pointer; opacity: 1; pointer-events: auto; -webkit-tap-highlight-color: transparent; outline: none; touch-action: manipulation; transition: opacity 0.2s ease-in-out;",
+        "rect": {
+          "x": 703,
+          "y": 514,
+          "w": 129,
+          "h": 14
+        },
+        "childCount": 1,
+        "text": "",
+        "dataAttrs": [
+          "data-testid=slot-horizontal-5-7"
+        ],
+        "ariaAttrs": []
+      },
+      {
+        "index": 129,
+        "tag": "DIV",
+        "classes": "group focus:outline-none focus:ring-0 active:outline-none",
+        "style": "grid-area: 15 / 2 / 16 / 5; position: relative; cursor: pointer; opacity: 1; pointer-events: auto; -webkit-tap-highlight-color: transparent; outline: none; touch-action: manipulation; transition: opacity 0.2s ease-in-out;",
+        "rect": {
+          "x": 201,
+          "y": 586,
+          "w": 129,
+          "h": 14
+        },
+        "childCount": 1,
+        "text": "",
+        "dataAttrs": [
+          "data-testid=slot-horizontal-6-0"
+        ],
+        "ariaAttrs": []
+      },
+      {
+        "index": 130,
+        "tag": "DIV",
+        "classes": "group focus:outline-none focus:ring-0 active:outline-none",
+        "style": "grid-area: 15 / 4 / 16 / 7; position: relative; cursor: pointer; opacity: 1; pointer-events: auto; -webkit-tap-highlight-color: transparent; outline: none; touch-action: manipulation; transition: opacity 0.2s ease-in-out;",
+        "rect": {
+          "x": 272,
+          "y": 586,
+          "w": 129,
+          "h": 14
+        },
+        "childCount": 1,
+        "text": "",
+        "dataAttrs": [
+          "data-testid=slot-horizontal-6-1"
+        ],
+        "ariaAttrs": []
+      },
+      {
+        "index": 131,
+        "tag": "DIV",
+        "classes": "group focus:outline-none focus:ring-0 active:outline-none",
+        "style": "grid-area: 15 / 6 / 16 / 9; position: relative; cursor: pointer; opacity: 1; pointer-events: auto; -webkit-tap-highlight-color: transparent; outline: none; touch-action: manipulation; transition: opacity 0.2s ease-in-out;",
+        "rect": {
+          "x": 344,
+          "y": 586,
+          "w": 129,
+          "h": 14
+        },
+        "childCount": 1,
+        "text": "",
+        "dataAttrs": [
+          "data-testid=slot-horizontal-6-2"
+        ],
+        "ariaAttrs": []
+      },
+      {
+        "index": 132,
+        "tag": "DIV",
+        "classes": "group focus:outline-none focus:ring-0 active:outline-none",
+        "style": "grid-area: 15 / 8 / 16 / 11; position: relative; cursor: pointer; opacity: 1; pointer-events: auto; -webkit-tap-highlight-color: transparent; outline: none; touch-action: manipulation; transition: opacity 0.2s ease-in-out;",
+        "rect": {
+          "x": 416,
+          "y": 586,
+          "w": 129,
+          "h": 14
+        },
+        "childCount": 1,
+        "text": "",
+        "dataAttrs": [
+          "data-testid=slot-horizontal-6-3"
+        ],
+        "ariaAttrs": []
+      },
+      {
+        "index": 133,
+        "tag": "DIV",
+        "classes": "group focus:outline-none focus:ring-0 active:outline-none",
+        "style": "grid-area: 15 / 10 / 16 / 13; position: relative; cursor: pointer; opacity: 1; pointer-events: auto; -webkit-tap-highlight-color: transparent; outline: none; touch-action: manipulation; transition: opacity 0.2s ease-in-out;",
+        "rect": {
+          "x": 488,
+          "y": 586,
+          "w": 129,
+          "h": 14
+        },
+        "childCount": 1,
+        "text": "",
+        "dataAttrs": [
+          "data-testid=slot-horizontal-6-4"
+        ],
+        "ariaAttrs": []
+      },
+      {
+        "index": 134,
+        "tag": "DIV",
+        "classes": "group focus:outline-none focus:ring-0 active:outline-none",
+        "style": "grid-area: 15 / 12 / 16 / 15; position: relative; cursor: pointer; opacity: 1; pointer-events: auto; -webkit-tap-highlight-color: transparent; outline: none; touch-action: manipulation; transition: opacity 0.2s ease-in-out;",
+        "rect": {
+          "x": 560,
+          "y": 586,
+          "w": 129,
+          "h": 14
+        },
+        "childCount": 1,
+        "text": "",
+        "dataAttrs": [
+          "data-testid=slot-horizontal-6-5"
+        ],
+        "ariaAttrs": []
+      },
+      {
+        "index": 135,
+        "tag": "DIV",
+        "classes": "group focus:outline-none focus:ring-0 active:outline-none",
+        "style": "grid-area: 15 / 14 / 16 / 17; position: relative; cursor: pointer; opacity: 1; pointer-events: auto; -webkit-tap-highlight-color: transparent; outline: none; touch-action: manipulation; transition: opacity 0.2s ease-in-out;",
+        "rect": {
+          "x": 631,
+          "y": 586,
+          "w": 129,
+          "h": 14
+        },
+        "childCount": 1,
+        "text": "",
+        "dataAttrs": [
+          "data-testid=slot-horizontal-6-6"
+        ],
+        "ariaAttrs": []
+      },
+      {
+        "index": 136,
+        "tag": "DIV",
+        "classes": "group focus:outline-none focus:ring-0 active:outline-none",
+        "style": "grid-area: 15 / 16 / 16 / 19; position: relative; cursor: pointer; opacity: 1; pointer-events: auto; -webkit-tap-highlight-color: transparent; outline: none; touch-action: manipulation; transition: opacity 0.2s ease-in-out;",
+        "rect": {
+          "x": 703,
+          "y": 586,
+          "w": 129,
+          "h": 14
+        },
+        "childCount": 1,
+        "text": "",
+        "dataAttrs": [
+          "data-testid=slot-horizontal-6-7"
+        ],
+        "ariaAttrs": []
+      },
+      {
+        "index": 137,
+        "tag": "DIV",
+        "classes": "group focus:outline-none focus:ring-0 active:outline-none",
+        "style": "grid-area: 17 / 2 / 18 / 5; position: relative; cursor: pointer; opacity: 1; pointer-events: auto; -webkit-tap-highlight-color: transparent; outline: none; touch-action: manipulation; transition: opacity 0.2s ease-in-out;",
+        "rect": {
+          "x": 201,
+          "y": 658,
+          "w": 129,
+          "h": 14
+        },
+        "childCount": 1,
+        "text": "",
+        "dataAttrs": [
+          "data-testid=slot-horizontal-7-0"
+        ],
+        "ariaAttrs": []
+      },
+      {
+        "index": 138,
+        "tag": "DIV",
+        "classes": "group focus:outline-none focus:ring-0 active:outline-none",
+        "style": "grid-area: 17 / 4 / 18 / 7; position: relative; cursor: pointer; opacity: 1; pointer-events: auto; -webkit-tap-highlight-color: transparent; outline: none; touch-action: manipulation; transition: opacity 0.2s ease-in-out;",
+        "rect": {
+          "x": 272,
+          "y": 658,
+          "w": 129,
+          "h": 14
+        },
+        "childCount": 1,
+        "text": "",
+        "dataAttrs": [
+          "data-testid=slot-horizontal-7-1"
+        ],
+        "ariaAttrs": []
+      },
+      {
+        "index": 139,
+        "tag": "DIV",
+        "classes": "group focus:outline-none focus:ring-0 active:outline-none",
+        "style": "grid-area: 17 / 6 / 18 / 9; position: relative; cursor: pointer; opacity: 1; pointer-events: auto; -webkit-tap-highlight-color: transparent; outline: none; touch-action: manipulation; transition: opacity 0.2s ease-in-out;",
+        "rect": {
+          "x": 344,
+          "y": 658,
+          "w": 129,
+          "h": 14
+        },
+        "childCount": 1,
+        "text": "",
+        "dataAttrs": [
+          "data-testid=slot-horizontal-7-2"
+        ],
+        "ariaAttrs": []
+      },
+      {
+        "index": 140,
+        "tag": "DIV",
+        "classes": "group focus:outline-none focus:ring-0 active:outline-none",
+        "style": "grid-area: 17 / 8 / 18 / 11; position: relative; cursor: pointer; opacity: 1; pointer-events: auto; -webkit-tap-highlight-color: transparent; outline: none; touch-action: manipulation; transition: opacity 0.2s ease-in-out;",
+        "rect": {
+          "x": 416,
+          "y": 658,
+          "w": 129,
+          "h": 14
+        },
+        "childCount": 1,
+        "text": "",
+        "dataAttrs": [
+          "data-testid=slot-horizontal-7-3"
+        ],
+        "ariaAttrs": []
+      },
+      {
+        "index": 141,
+        "tag": "DIV",
+        "classes": "group focus:outline-none focus:ring-0 active:outline-none",
+        "style": "grid-area: 17 / 10 / 18 / 13; position: relative; cursor: pointer; opacity: 1; pointer-events: auto; -webkit-tap-highlight-color: transparent; outline: none; touch-action: manipulation; transition: opacity 0.2s ease-in-out;",
+        "rect": {
+          "x": 488,
+          "y": 658,
+          "w": 129,
+          "h": 14
+        },
+        "childCount": 1,
+        "text": "",
+        "dataAttrs": [
+          "data-testid=slot-horizontal-7-4"
+        ],
+        "ariaAttrs": []
+      },
+      {
+        "index": 142,
+        "tag": "DIV",
+        "classes": "group focus:outline-none focus:ring-0 active:outline-none",
+        "style": "grid-area: 17 / 12 / 18 / 15; position: relative; cursor: pointer; opacity: 1; pointer-events: auto; -webkit-tap-highlight-color: transparent; outline: none; touch-action: manipulation; transition: opacity 0.2s ease-in-out;",
+        "rect": {
+          "x": 560,
+          "y": 658,
+          "w": 129,
+          "h": 14
+        },
+        "childCount": 1,
+        "text": "",
+        "dataAttrs": [
+          "data-testid=slot-horizontal-7-5"
+        ],
+        "ariaAttrs": []
+      },
+      {
+        "index": 143,
+        "tag": "DIV",
+        "classes": "group focus:outline-none focus:ring-0 active:outline-none",
+        "style": "grid-area: 17 / 14 / 18 / 17; position: relative; cursor: pointer; opacity: 1; pointer-events: auto; -webkit-tap-highlight-color: transparent; outline: none; touch-action: manipulation; transition: opacity 0.2s ease-in-out;",
+        "rect": {
+          "x": 631,
+          "y": 658,
+          "w": 129,
+          "h": 14
+        },
+        "childCount": 1,
+        "text": "",
+        "dataAttrs": [
+          "data-testid=slot-horizontal-7-6"
+        ],
+        "ariaAttrs": []
+      },
+      {
+        "index": 144,
+        "tag": "DIV",
+        "classes": "group focus:outline-none focus:ring-0 active:outline-none",
+        "style": "grid-area: 17 / 16 / 18 / 19; position: relative; cursor: pointer; opacity: 1; pointer-events: auto; -webkit-tap-highlight-color: transparent; outline: none; touch-action: manipulation; transition: opacity 0.2s ease-in-out;",
+        "rect": {
+          "x": 703,
+          "y": 658,
+          "w": 129,
+          "h": 14
+        },
+        "childCount": 1,
+        "text": "",
+        "dataAttrs": [
+          "data-testid=slot-horizontal-7-7"
+        ],
+        "ariaAttrs": []
+      },
+      {
+        "index": 145,
+        "tag": "DIV",
+        "classes": "group focus:outline-none focus:ring-0 active:outline-none",
+        "style": "grid-area: 2 / 3 / 5 / 4; position: relative; cursor: pointer; opacity: 1; pointer-events: auto; -webkit-tap-highlight-color: transparent; outline: none; touch-action: manipulation; transition: opacity 0.2s ease-in-out;",
+        "rect": {
+          "x": 258,
+          "y": 98,
+          "w": 14,
+          "h": 129
+        },
+        "childCount": 1,
+        "text": "",
+        "dataAttrs": [
+          "data-testid=slot-vertical-0-0"
+        ],
+        "ariaAttrs": []
+      },
+      {
+        "index": 146,
+        "tag": "DIV",
+        "classes": "group focus:outline-none focus:ring-0 active:outline-none",
+        "style": "grid-area: 2 / 5 / 5 / 6; position: relative; cursor: pointer; opacity: 1; pointer-events: auto; -webkit-tap-highlight-color: transparent; outline: none; touch-action: manipulation; transition: opacity 0.2s ease-in-out;",
+        "rect": {
+          "x": 330,
+          "y": 98,
+          "w": 14,
+          "h": 129
+        },
+        "childCount": 1,
+        "text": "",
+        "dataAttrs": [
+          "data-testid=slot-vertical-0-1"
+        ],
+        "ariaAttrs": []
+      },
+      {
+        "index": 147,
+        "tag": "DIV",
+        "classes": "group focus:outline-none focus:ring-0 active:outline-none",
+        "style": "grid-area: 2 / 7 / 5 / 8; position: relative; cursor: pointer; opacity: 1; pointer-events: auto; -webkit-tap-highlight-color: transparent; outline: none; touch-action: manipulation; transition: opacity 0.2s ease-in-out;",
+        "rect": {
+          "x": 402,
+          "y": 98,
+          "w": 14,
+          "h": 129
+        },
+        "childCount": 1,
+        "text": "",
+        "dataAttrs": [
+          "data-testid=slot-vertical-0-2"
+        ],
+        "ariaAttrs": []
+      },
+      {
+        "index": 148,
+        "tag": "DIV",
+        "classes": "group focus:outline-none focus:ring-0 active:outline-none",
+        "style": "grid-area: 2 / 9 / 5 / 10; position: relative; cursor: pointer; opacity: 1; pointer-events: auto; -webkit-tap-highlight-color: transparent; outline: none; touch-action: manipulation; transition: opacity 0.2s ease-in-out;",
+        "rect": {
+          "x": 473,
+          "y": 98,
+          "w": 14,
+          "h": 129
+        },
+        "childCount": 1,
+        "text": "",
+        "dataAttrs": [
+          "data-testid=slot-vertical-0-3"
+        ],
+        "ariaAttrs": []
+      },
+      {
+        "index": 149,
+        "tag": "DIV",
+        "classes": "group focus:outline-none focus:ring-0 active:outline-none",
+        "style": "grid-area: 2 / 11 / 5 / 12; position: relative; cursor: pointer; opacity: 1; pointer-events: auto; -webkit-tap-highlight-color: transparent; outline: none; touch-action: manipulation; transition: opacity 0.2s ease-in-out;",
+        "rect": {
+          "x": 545,
+          "y": 98,
+          "w": 14,
+          "h": 129
+        },
+        "childCount": 1,
+        "text": "",
+        "dataAttrs": [
+          "data-testid=slot-vertical-0-4"
+        ],
+        "ariaAttrs": []
+      }
+    ]
+  },
+  "url": "https://barricade.gg/computer",
+  "title": "Play vs Computer \u2014 Barricade"
+}
